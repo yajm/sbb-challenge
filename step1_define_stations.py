@@ -1,5 +1,5 @@
 neighbors = {
-    "Zurich": ["Aargau", "Zug", "Schwyz", "St. Gallen", "Thurgau", "Schaffhausen"],
+    "Zurich": ["Aargau", "Zug", "Schwyz", "St. Gallen", "Thurgau", "Schaffhausen", "Basel-Stadt"],
     "St. Gallen": ["Thurgau", "Zurich", "Schwyz", "Glarus", "Graubünden", "Appenzell Ausserrhoden", "Appenzell Innerrhoden"],
     "Appenzell Ausserrhoden": ["St. Gallen", "Appenzell Innerrhoden"],
     "Appenzell Innerrhoden": ["St. Gallen", "Appenzell Ausserrhoden"],
@@ -12,10 +12,10 @@ neighbors = {
     "Uri": ["Schwyz", "Glarus", "Graubünden", "Ticino", "Valais", "Bern", "Obwalden", "Nidwalden"],
     "Nidwalden": ["Lucerne", "Obwalden", "Uri", "Schwyz", "Bern"],
     "Obwalden": ["Lucerne", "Nidwalden", "Uri", "Bern"],
-    "Basel-Stadt": ["Basel-Landschaft"],
+    "Basel-Stadt": ["Basel-Landschaft", "Aargau", "Solothurn", "Zurich"],
     "Basel-Landschaft": ["Basel-Stadt", "Aargau", "Solothurn", "Jura"],
-    "Aargau": ["Basel-Landschaft", "Solothurn", "Bern", "Lucerne", "Zug", "Zurich"],
-    "Solothurn": ["Basel-Landschaft", "Jura", "Bern", "Aargau"],
+    "Aargau": ["Basel-Landschaft", "Solothurn", "Bern", "Lucerne", "Zug", "Zurich", "Basel-Stadt"],
+    "Solothurn": ["Basel-Landschaft", "Jura", "Bern", "Aargau", "Basel-Stadt"],
     "Jura": ["Basel-Landschaft", "Solothurn", "Bern", "Neuchâtel"],
     "Bern": ["Jura", "Solothurn", "Aargau", "Lucerne", "Obwalden", "Nidwalden", "Uri", "Valais", "Fribourg", "Vaud", "Neuchâtel"],
     "Fribourg": ["Bern", "Vaud", "Neuchâtel"],
@@ -29,7 +29,7 @@ neighbors = {
 
 swiss_canton_stations_old = {
     # German-speaking cantons
-    "Aargau": ["Aarau", "Zofingen", "Aarburg-Oftringen", "Kaiseraugst" "Sins", "Spreitenbach"],
+    "Aargau": ["Aarau", "Zofingen", "Sins", "Brugg AG", "Aarburg, Kloosmatte"],
     "Appenzell Ausserrhoden": ["Herisau", "Gais", "Urnäsch"],
     "Appenzell Innerrhoden": ["Appenzell", "Jakobsbad", "Sammelplatz"],
     "Basel-Landschaft": ["Liestal", "Laufen", "Muttenz"],
@@ -47,7 +47,7 @@ swiss_canton_stations_old = {
     "Thurgau": ["Frauenfeld", "Romanshorn", "Münchwilen TG"],
     "Uri": ["Altdorf", "Erstfeld", "Göschenen"],
     "Zug": ["Zug"],
-    "Zurich": ["Zürich HB"],
+    "Zurich": ["Zürich HB", "Langwiesen ZH"],
     
     # French-speaking cantons
     "Fribourg": ["Fribourg", "Estavayer-le-Lac", "Kerzers", "Romont FR"],
@@ -63,7 +63,7 @@ swiss_canton_stations_old = {
 
 swiss_canton_stations = {
     # German-speaking cantons
-    "Aargau": ["Aarau", "Zofingen", "Baden", "Brugg"],
+    "Aargau": ["Aarau", "Zofingen", "Baden", "Brugg AG", "Aarburg, Kloosmatte"],
     "Appenzell Ausserrhoden": ["Herisau", "Heiden, Post"],
     "Appenzell Innerrhoden": ["Jakobsbad", "Oberegg, Post"],
     "Basel-Landschaft": ["Liestal", "Muttenz", "Laufen, Bahnhof"],
