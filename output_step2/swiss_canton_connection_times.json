@@ -1,0 +1,4920 @@
+{
+  "Zurich": {
+    "Aargau": {
+      "connections": [
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Aarau",
+          "minutes": 24
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Zofingen",
+          "minutes": 42
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Baden",
+          "minutes": 15
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Brugg",
+          "minutes": 24
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Aarau",
+          "minutes": 84
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Zofingen",
+          "minutes": 98
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Baden",
+          "minutes": 77
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Brugg",
+          "minutes": 86
+        }
+      ],
+      "shortest": {
+        "from_station": "Zürich HB",
+        "to_station": "Baden",
+        "minutes": 15
+      }
+    },
+    "Zug": {
+      "connections": [
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Zug",
+          "minutes": 21
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Zug",
+          "minutes": 85
+        }
+      ],
+      "shortest": {
+        "from_station": "Zürich HB",
+        "to_station": "Zug",
+        "minutes": 21
+      }
+    },
+    "Schwyz": {
+      "connections": [
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Arth-Goldau",
+          "minutes": 40
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 24
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Arth-Goldau",
+          "minutes": 101
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 93
+        }
+      ],
+      "shortest": {
+        "from_station": "Zürich HB",
+        "to_station": "Pfäffikon SZ",
+        "minutes": 24
+      }
+    },
+    "St. Gallen": {
+      "connections": [
+        {
+          "from_station": "Zürich HB",
+          "to_station": "St. Gallen",
+          "minutes": 57
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Rapperswil",
+          "minutes": 37
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Wattwil",
+          "minutes": 63
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Wil SG",
+          "minutes": 46
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Sargans",
+          "minutes": 54
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Uznach",
+          "minutes": 50
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Gossau SG",
+          "minutes": 65
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Heerbrugg",
+          "minutes": 88
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Rheineck",
+          "minutes": 83
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 68
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "St. Gallen",
+          "minutes": 86
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Rapperswil",
+          "minutes": 102
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Wattwil",
+          "minutes": 110
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Wil SG",
+          "minutes": 81
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Sargans",
+          "minutes": 118
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Uznach",
+          "minutes": 127
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Gossau SG",
+          "minutes": 100
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Heerbrugg",
+          "minutes": 120
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Rheineck",
+          "minutes": 112
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 97
+        }
+      ],
+      "shortest": {
+        "from_station": "Zürich HB",
+        "to_station": "Rapperswil",
+        "minutes": 37
+      }
+    },
+    "Thurgau": {
+      "connections": [
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Frauenfeld",
+          "minutes": 37
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Romanshorn",
+          "minutes": 67
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Aadorf",
+          "minutes": 42
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Sirnach",
+          "minutes": 51
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Münchwilen TG",
+          "minutes": 64
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Frauenfeld",
+          "minutes": 50
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Romanshorn",
+          "minutes": 79
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Aadorf",
+          "minutes": 84
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Sirnach",
+          "minutes": 84
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Münchwilen TG",
+          "minutes": 77
+        }
+      ],
+      "shortest": {
+        "from_station": "Zürich HB",
+        "to_station": "Frauenfeld",
+        "minutes": 37
+      }
+    },
+    "Schaffhausen": {
+      "connections": [
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Schaffhausen",
+          "minutes": 36
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Neuhausen",
+          "minutes": 44
+        },
+        {
+          "from_station": "Zürich HB",
+          "to_station": "Stein am Rhein",
+          "minutes": 66
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Schaffhausen",
+          "minutes": 9
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Neuhausen",
+          "minutes": 14
+        },
+        {
+          "from_station": "Langwiesen ZH",
+          "to_station": "Stein am Rhein",
+          "minutes": 20
+        }
+      ],
+      "shortest": {
+        "from_station": "Langwiesen ZH",
+        "to_station": "Schaffhausen",
+        "minutes": 9
+      }
+    }
+  },
+  "Aargau": {
+    "Zurich": {
+      "connections": [
+        {
+          "from_station": "Aarau",
+          "to_station": "Zürich HB",
+          "minutes": 24
+        },
+        {
+          "from_station": "Zofingen",
+          "to_station": "Zürich HB",
+          "minutes": 42
+        },
+        {
+          "from_station": "Baden",
+          "to_station": "Zürich HB",
+          "minutes": 15
+        },
+        {
+          "from_station": "Brugg",
+          "to_station": "Zürich HB",
+          "minutes": 24
+        },
+        {
+          "from_station": "Aarau",
+          "to_station": "Langwiesen ZH",
+          "minutes": 84
+        },
+        {
+          "from_station": "Zofingen",
+          "to_station": "Langwiesen ZH",
+          "minutes": 98
+        },
+        {
+          "from_station": "Baden",
+          "to_station": "Langwiesen ZH",
+          "minutes": 77
+        },
+        {
+          "from_station": "Brugg",
+          "to_station": "Langwiesen ZH",
+          "minutes": 86
+        }
+      ],
+      "shortest": {
+        "from_station": "Baden",
+        "to_station": "Zürich HB",
+        "minutes": 15
+      }
+    },
+    "Lucerne": {
+      "connections": [
+        {
+          "from_station": "Aarau",
+          "to_station": "Luzern",
+          "minutes": 50
+        },
+        {
+          "from_station": "Zofingen",
+          "to_station": "Luzern",
+          "minutes": 31
+        },
+        {
+          "from_station": "Baden",
+          "to_station": "Luzern",
+          "minutes": 72
+        },
+        {
+          "from_station": "Brugg",
+          "to_station": "Luzern",
+          "minutes": 65
+        },
+        {
+          "from_station": "Aarau",
+          "to_station": "Sursee",
+          "minutes": 39
+        },
+        {
+          "from_station": "Zofingen",
+          "to_station": "Sursee",
+          "minutes": 13
+        },
+        {
+          "from_station": "Baden",
+          "to_station": "Sursee",
+          "minutes": 69
+        },
+        {
+          "from_station": "Brugg",
+          "to_station": "Sursee",
+          "minutes": 58
+        }
+      ],
+      "shortest": {
+        "from_station": "Zofingen",
+        "to_station": "Sursee",
+        "minutes": 13
+      }
+    },
+    "Zug": {
+      "connections": [
+        {
+          "from_station": "Aarau",
+          "to_station": "Zug",
+          "minutes": 57
+        },
+        {
+          "from_station": "Zofingen",
+          "to_station": "Zug",
+          "minutes": 58
+        },
+        {
+          "from_station": "Baden",
+          "to_station": "Zug",
+          "minutes": 50
+        },
+        {
+          "from_station": "Brugg",
+          "to_station": "Zug",
+          "minutes": 59
+        }
+      ],
+      "shortest": {
+        "from_station": "Baden",
+        "to_station": "Zug",
+        "minutes": 50
+      }
+    },
+    "Basel-Landschaft": {
+      "connections": [
+        {
+          "from_station": "Aarau",
+          "to_station": "Liestal",
+          "minutes": 26
+        },
+        {
+          "from_station": "Zofingen",
+          "to_station": "Liestal",
+          "minutes": 29
+        },
+        {
+          "from_station": "Baden",
+          "to_station": "Liestal",
+          "minutes": 65
+        },
+        {
+          "from_station": "Brugg",
+          "to_station": "Liestal",
+          "minutes": 52
+        },
+        {
+          "from_station": "Aarau",
+          "to_station": "Muttenz",
+          "minutes": 43
+        },
+        {
+          "from_station": "Zofingen",
+          "to_station": "Muttenz",
+          "minutes": 49
+        },
+        {
+          "from_station": "Baden",
+          "to_station": "Muttenz",
+          "minutes": 63
+        },
+        {
+          "from_station": "Brugg",
+          "to_station": "Muttenz",
+          "minutes": 55
+        },
+        {
+          "from_station": "Aarau",
+          "to_station": "Laufen, Bahnhof",
+          "minutes": 80
+        },
+        {
+          "from_station": "Zofingen",
+          "to_station": "Laufen, Bahnhof",
+          "minutes": 86
+        },
+        {
+          "from_station": "Baden",
+          "to_station": "Laufen, Bahnhof",
+          "minutes": 97
+        },
+        {
+          "from_station": "Brugg",
+          "to_station": "Laufen, Bahnhof",
+          "minutes": 87
+        }
+      ],
+      "shortest": {
+        "from_station": "Aarau",
+        "to_station": "Liestal",
+        "minutes": 26
+      }
+    },
+    "Solothurn": {
+      "connections": [
+        {
+          "from_station": "Aarau",
+          "to_station": "Olten",
+          "minutes": 9
+        },
+        {
+          "from_station": "Aarau",
+          "to_station": "Grenchen Nord",
+          "minutes": 58
+        },
+        {
+          "from_station": "Zofingen",
+          "to_station": "Olten",
+          "minutes": 7
+        },
+        {
+          "from_station": "Zofingen",
+          "to_station": "Grenchen Nord",
+          "minutes": 62
+        },
+        {
+          "from_station": "Baden",
+          "to_station": "Olten",
+          "minutes": 33
+        },
+        {
+          "from_station": "Baden",
+          "to_station": "Grenchen Nord",
+          "minutes": 85
+        },
+        {
+          "from_station": "Brugg",
+          "to_station": "Olten",
+          "minutes": 23
+        },
+        {
+          "from_station": "Brugg",
+          "to_station": "Grenchen Nord",
+          "minutes": 75
+        }
+      ],
+      "shortest": {
+        "from_station": "Zofingen",
+        "to_station": "Olten",
+        "minutes": 7
+      }
+    },
+    "Bern": {
+      "connections": [
+        {
+          "from_station": "Aarau",
+          "to_station": "Bern",
+          "minutes": 38
+        },
+        {
+          "from_station": "Aarau",
+          "to_station": "Biel/Bienne",
+          "minutes": 45
+        },
+        {
+          "from_station": "Aarau",
+          "to_station": "Lyss",
+          "minutes": 60
+        },
+        {
+          "from_station": "Zofingen",
+          "to_station": "Bern",
+          "minutes": 28
+        },
+        {
+          "from_station": "Zofingen",
+          "to_station": "Biel/Bienne",
+          "minutes": 58
+        },
+        {
+          "from_station": "Zofingen",
+          "to_station": "Lyss",
+          "minutes": 56
+        },
+        {
+          "from_station": "Baden",
+          "to_station": "Bern",
+          "minutes": 62
+        },
+        {
+          "from_station": "Baden",
+          "to_station": "Biel/Bienne",
+          "minutes": 81
+        },
+        {
+          "from_station": "Baden",
+          "to_station": "Lyss",
+          "minutes": 90
+        },
+        {
+          "from_station": "Brugg",
+          "to_station": "Bern",
+          "minutes": 52
+        },
+        {
+          "from_station": "Brugg",
+          "to_station": "Biel/Bienne",
+          "minutes": 68
+        },
+        {
+          "from_station": "Brugg",
+          "to_station": "Lyss",
+          "minutes": 80
+        }
+      ],
+      "shortest": {
+        "from_station": "Zofingen",
+        "to_station": "Bern",
+        "minutes": 28
+      }
+    }
+  },
+  "Zug": {
+    "Zurich": {
+      "connections": [
+        {
+          "from_station": "Zug",
+          "to_station": "Zürich HB",
+          "minutes": 21
+        },
+        {
+          "from_station": "Zug",
+          "to_station": "Langwiesen ZH",
+          "minutes": 85
+        }
+      ],
+      "shortest": {
+        "from_station": "Zug",
+        "to_station": "Zürich HB",
+        "minutes": 21
+      }
+    },
+    "Lucerne": {
+      "connections": [
+        {
+          "from_station": "Zug",
+          "to_station": "Luzern",
+          "minutes": 19
+        },
+        {
+          "from_station": "Zug",
+          "to_station": "Sursee",
+          "minutes": 45
+        }
+      ],
+      "shortest": {
+        "from_station": "Zug",
+        "to_station": "Luzern",
+        "minutes": 19
+      }
+    },
+    "Aargau": {
+      "connections": [
+        {
+          "from_station": "Zug",
+          "to_station": "Aarau",
+          "minutes": 57
+        },
+        {
+          "from_station": "Zug",
+          "to_station": "Zofingen",
+          "minutes": 58
+        },
+        {
+          "from_station": "Zug",
+          "to_station": "Baden",
+          "minutes": 50
+        },
+        {
+          "from_station": "Zug",
+          "to_station": "Brugg",
+          "minutes": 59
+        }
+      ],
+      "shortest": {
+        "from_station": "Zug",
+        "to_station": "Baden",
+        "minutes": 50
+      }
+    },
+    "Schwyz": {
+      "connections": [
+        {
+          "from_station": "Zug",
+          "to_station": "Arth-Goldau",
+          "minutes": 15
+        },
+        {
+          "from_station": "Zug",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 41
+        }
+      ],
+      "shortest": {
+        "from_station": "Zug",
+        "to_station": "Arth-Goldau",
+        "minutes": 15
+      }
+    }
+  },
+  "Schwyz": {
+    "Zurich": {
+      "connections": [
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Zürich HB",
+          "minutes": 40
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Zürich HB",
+          "minutes": 24
+        },
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Langwiesen ZH",
+          "minutes": 101
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Langwiesen ZH",
+          "minutes": 93
+        }
+      ],
+      "shortest": {
+        "from_station": "Pfäffikon SZ",
+        "to_station": "Zürich HB",
+        "minutes": 24
+      }
+    },
+    "St. Gallen": {
+      "connections": [
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "St. Gallen",
+          "minutes": 100
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "St. Gallen",
+          "minutes": 56
+        },
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Rapperswil",
+          "minutes": 49
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Rapperswil",
+          "minutes": 5
+        },
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Wattwil",
+          "minutes": 73
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Wattwil",
+          "minutes": 29
+        },
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Wil SG",
+          "minutes": 101
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Wil SG",
+          "minutes": 59
+        },
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Sargans",
+          "minutes": 103
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Sargans",
+          "minutes": 44
+        },
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Uznach",
+          "minutes": 62
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Uznach",
+          "minutes": 18
+        },
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Gossau SG",
+          "minutes": 114
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Gossau SG",
+          "minutes": 70
+        },
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Heerbrugg",
+          "minutes": 143
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Heerbrugg",
+          "minutes": 84
+        },
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Rheineck",
+          "minutes": 130
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Rheineck",
+          "minutes": 86
+        },
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 107
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 63
+        }
+      ],
+      "shortest": {
+        "from_station": "Pfäffikon SZ",
+        "to_station": "Rapperswil",
+        "minutes": 5
+      }
+    },
+    "Glarus": {
+      "connections": [
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Ziegelbrücke",
+          "minutes": 71
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Ziegelbrücke",
+          "minutes": 17
+        },
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Mühlehorn",
+          "minutes": 80
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Mühlehorn",
+          "minutes": 26
+        }
+      ],
+      "shortest": {
+        "from_station": "Pfäffikon SZ",
+        "to_station": "Ziegelbrücke",
+        "minutes": 17
+      }
+    },
+    "Lucerne": {
+      "connections": [
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Luzern",
+          "minutes": 27
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Luzern",
+          "minutes": 64
+        },
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Sursee",
+          "minutes": 56
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Sursee",
+          "minutes": 87
+        }
+      ],
+      "shortest": {
+        "from_station": "Arth-Goldau",
+        "to_station": "Luzern",
+        "minutes": 27
+      }
+    },
+    "Zug": {
+      "connections": [
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Zug",
+          "minutes": 15
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Zug",
+          "minutes": 41
+        }
+      ],
+      "shortest": {
+        "from_station": "Arth-Goldau",
+        "to_station": "Zug",
+        "minutes": 15
+      }
+    },
+    "Nidwalden": {
+      "connections": [
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Hergiswil NW",
+          "minutes": 50
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Hergiswil NW",
+          "minutes": 87
+        }
+      ],
+      "shortest": {
+        "from_station": "Arth-Goldau",
+        "to_station": "Hergiswil NW",
+        "minutes": 50
+      }
+    },
+    "Uri": {
+      "connections": [
+        {
+          "from_station": "Arth-Goldau",
+          "to_station": "Altdorf UR",
+          "minutes": 19
+        },
+        {
+          "from_station": "Pfäffikon SZ",
+          "to_station": "Altdorf UR",
+          "minutes": 66
+        }
+      ],
+      "shortest": {
+        "from_station": "Arth-Goldau",
+        "to_station": "Altdorf UR",
+        "minutes": 19
+      }
+    }
+  },
+  "St. Gallen": {
+    "Zurich": {
+      "connections": [
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Zürich HB",
+          "minutes": 57
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Zürich HB",
+          "minutes": 37
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Zürich HB",
+          "minutes": 63
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Zürich HB",
+          "minutes": 46
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Zürich HB",
+          "minutes": 54
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Zürich HB",
+          "minutes": 50
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Zürich HB",
+          "minutes": 65
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Zürich HB",
+          "minutes": 88
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Zürich HB",
+          "minutes": 83
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Zürich HB",
+          "minutes": 68
+        },
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Langwiesen ZH",
+          "minutes": 86
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Langwiesen ZH",
+          "minutes": 102
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Langwiesen ZH",
+          "minutes": 110
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Langwiesen ZH",
+          "minutes": 81
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Langwiesen ZH",
+          "minutes": 118
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Langwiesen ZH",
+          "minutes": 127
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Langwiesen ZH",
+          "minutes": 100
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Langwiesen ZH",
+          "minutes": 120
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Langwiesen ZH",
+          "minutes": 112
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Langwiesen ZH",
+          "minutes": 97
+        }
+      ],
+      "shortest": {
+        "from_station": "Rapperswil",
+        "to_station": "Zürich HB",
+        "minutes": 37
+      }
+    },
+    "Thurgau": {
+      "connections": [
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Frauenfeld",
+          "minutes": 58
+        },
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Romanshorn",
+          "minutes": 18
+        },
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Aadorf",
+          "minutes": 44
+        },
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Sirnach",
+          "minutes": 34
+        },
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Münchwilen TG",
+          "minutes": 38
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Frauenfeld",
+          "minutes": 73
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Romanshorn",
+          "minutes": 86
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Aadorf",
+          "minutes": 74
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Sirnach",
+          "minutes": 64
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Münchwilen TG",
+          "minutes": 68
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Frauenfeld",
+          "minutes": 64
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Romanshorn",
+          "minutes": 63
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Aadorf",
+          "minutes": 56
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Sirnach",
+          "minutes": 36
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Münchwilen TG",
+          "minutes": 40
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Frauenfeld",
+          "minutes": 28
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Romanshorn",
+          "minutes": 51
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Aadorf",
+          "minutes": 13
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Sirnach",
+          "minutes": 3
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Münchwilen TG",
+          "minutes": 4
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Frauenfeld",
+          "minutes": 102
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Romanshorn",
+          "minutes": 68
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Aadorf",
+          "minutes": 116
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Sirnach",
+          "minutes": 99
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Münchwilen TG",
+          "minutes": 94
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Frauenfeld",
+          "minutes": 81
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Romanshorn",
+          "minutes": 76
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Aadorf",
+          "minutes": 73
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Sirnach",
+          "minutes": 53
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Münchwilen TG",
+          "minutes": 57
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Frauenfeld",
+          "minutes": 55
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Romanshorn",
+          "minutes": 42
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Aadorf",
+          "minutes": 35
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Sirnach",
+          "minutes": 25
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Münchwilen TG",
+          "minutes": 31
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Frauenfeld",
+          "minutes": 71
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Romanshorn",
+          "minutes": 37
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Aadorf",
+          "minutes": 85
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Sirnach",
+          "minutes": 69
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Münchwilen TG",
+          "minutes": 69
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Frauenfeld",
+          "minutes": 72
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Romanshorn",
+          "minutes": 38
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Aadorf",
+          "minutes": 86
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Sirnach",
+          "minutes": 70
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Münchwilen TG",
+          "minutes": 70
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Frauenfeld",
+          "minutes": 55
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Romanshorn",
+          "minutes": 24
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Aadorf",
+          "minutes": 56
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Sirnach",
+          "minutes": 46
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Münchwilen TG",
+          "minutes": 47
+        }
+      ],
+      "shortest": {
+        "from_station": "Wil SG",
+        "to_station": "Sirnach",
+        "minutes": 3
+      }
+    },
+    "Schwyz": {
+      "connections": [
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Arth-Goldau",
+          "minutes": 100
+        },
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 56
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Arth-Goldau",
+          "minutes": 49
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 5
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Arth-Goldau",
+          "minutes": 73
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 29
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Arth-Goldau",
+          "minutes": 101
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 59
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Arth-Goldau",
+          "minutes": 103
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 44
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Arth-Goldau",
+          "minutes": 62
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 18
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Arth-Goldau",
+          "minutes": 114
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 70
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Arth-Goldau",
+          "minutes": 143
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 84
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Arth-Goldau",
+          "minutes": 130
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 86
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Arth-Goldau",
+          "minutes": 107
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 63
+        }
+      ],
+      "shortest": {
+        "from_station": "Rapperswil",
+        "to_station": "Pfäffikon SZ",
+        "minutes": 5
+      }
+    },
+    "Glarus": {
+      "connections": [
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Ziegelbrücke",
+          "minutes": 52
+        },
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Mühlehorn",
+          "minutes": 68
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Ziegelbrücke",
+          "minutes": 24
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Mühlehorn",
+          "minutes": 31
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Ziegelbrücke",
+          "minutes": 25
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Mühlehorn",
+          "minutes": 33
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Ziegelbrücke",
+          "minutes": 55
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Mühlehorn",
+          "minutes": 62
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Ziegelbrücke",
+          "minutes": 26
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Mühlehorn",
+          "minutes": 23
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Ziegelbrücke",
+          "minutes": 11
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Mühlehorn",
+          "minutes": 18
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Ziegelbrücke",
+          "minutes": 66
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Mühlehorn",
+          "minutes": 73
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Ziegelbrücke",
+          "minutes": 66
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Mühlehorn",
+          "minutes": 62
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Ziegelbrücke",
+          "minutes": 82
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Mühlehorn",
+          "minutes": 83
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Ziegelbrücke",
+          "minutes": 59
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Mühlehorn",
+          "minutes": 78
+        }
+      ],
+      "shortest": {
+        "from_station": "Uznach",
+        "to_station": "Ziegelbrücke",
+        "minutes": 11
+      }
+    },
+    "Graubünden": {
+      "connections": [
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Landquart",
+          "minutes": 73
+        },
+        {
+          "from_station": "St. Gallen",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 182
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Landquart",
+          "minutes": 65
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 131
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Landquart",
+          "minutes": 66
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 155
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Landquart",
+          "minutes": 96
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 183
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Landquart",
+          "minutes": 8
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 161
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Landquart",
+          "minutes": 52
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 144
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Landquart",
+          "minutes": 84
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 196
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Landquart",
+          "minutes": 45
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 204
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Landquart",
+          "minutes": 66
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 212
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Landquart",
+          "minutes": 82
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 189
+        }
+      ],
+      "shortest": {
+        "from_station": "Sargans",
+        "to_station": "Landquart",
+        "minutes": 8
+      }
+    },
+    "Appenzell Ausserrhoden": {
+      "connections": [
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Herisau",
+          "minutes": 7
+        },
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Heiden, Post",
+          "minutes": 35
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Herisau",
+          "minutes": 39
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Heiden, Post",
+          "minutes": 104
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Herisau",
+          "minutes": 19
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Heiden, Post",
+          "minutes": 82
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Herisau",
+          "minutes": 32
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Heiden, Post",
+          "minutes": 68
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Herisau",
+          "minutes": 71
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Heiden, Post",
+          "minutes": 60
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Herisau",
+          "minutes": 29
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Heiden, Post",
+          "minutes": 93
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Herisau",
+          "minutes": 7
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Heiden, Post",
+          "minutes": 50
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Herisau",
+          "minutes": 40
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Heiden, Post",
+          "minutes": 27
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Herisau",
+          "minutes": 37
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Heiden, Post",
+          "minutes": 18
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Herisau",
+          "minutes": 14
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Heiden, Post",
+          "minutes": 43
+        }
+      ],
+      "shortest": {
+        "from_station": "St. Gallen",
+        "to_station": "Herisau",
+        "minutes": 7
+      }
+    },
+    "Appenzell Innerrhoden": {
+      "connections": [
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Jakobsbad",
+          "minutes": 34
+        },
+        {
+          "from_station": "St. Gallen",
+          "to_station": "Oberegg, Post",
+          "minutes": 49
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Jakobsbad",
+          "minutes": 71
+        },
+        {
+          "from_station": "Rapperswil",
+          "to_station": "Oberegg, Post",
+          "minutes": 112
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Jakobsbad",
+          "minutes": 48
+        },
+        {
+          "from_station": "Wattwil",
+          "to_station": "Oberegg, Post",
+          "minutes": 92
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Jakobsbad",
+          "minutes": 52
+        },
+        {
+          "from_station": "Wil SG",
+          "to_station": "Oberegg, Post",
+          "minutes": 82
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Jakobsbad",
+          "minutes": 103
+        },
+        {
+          "from_station": "Sargans",
+          "to_station": "Oberegg, Post",
+          "minutes": 50
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Jakobsbad",
+          "minutes": 60
+        },
+        {
+          "from_station": "Uznach",
+          "to_station": "Oberegg, Post",
+          "minutes": 99
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Jakobsbad",
+          "minutes": 27
+        },
+        {
+          "from_station": "Gossau SG",
+          "to_station": "Oberegg, Post",
+          "minutes": 64
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Jakobsbad",
+          "minutes": 68
+        },
+        {
+          "from_station": "Heerbrugg",
+          "to_station": "Oberegg, Post",
+          "minutes": 17
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Jakobsbad",
+          "minutes": 73
+        },
+        {
+          "from_station": "Rheineck",
+          "to_station": "Oberegg, Post",
+          "minutes": 42
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Jakobsbad",
+          "minutes": 43
+        },
+        {
+          "from_station": "St. Gallen St. Fiden",
+          "to_station": "Oberegg, Post",
+          "minutes": 55
+        }
+      ],
+      "shortest": {
+        "from_station": "Heerbrugg",
+        "to_station": "Oberegg, Post",
+        "minutes": 17
+      }
+    }
+  },
+  "Thurgau": {
+    "Zurich": {
+      "connections": [
+        {
+          "from_station": "Frauenfeld",
+          "to_station": "Zürich HB",
+          "minutes": 37
+        },
+        {
+          "from_station": "Romanshorn",
+          "to_station": "Zürich HB",
+          "minutes": 67
+        },
+        {
+          "from_station": "Aadorf",
+          "to_station": "Zürich HB",
+          "minutes": 42
+        },
+        {
+          "from_station": "Sirnach",
+          "to_station": "Zürich HB",
+          "minutes": 51
+        },
+        {
+          "from_station": "Münchwilen TG",
+          "to_station": "Zürich HB",
+          "minutes": 64
+        },
+        {
+          "from_station": "Frauenfeld",
+          "to_station": "Langwiesen ZH",
+          "minutes": 50
+        },
+        {
+          "from_station": "Romanshorn",
+          "to_station": "Langwiesen ZH",
+          "minutes": 79
+        },
+        {
+          "from_station": "Aadorf",
+          "to_station": "Langwiesen ZH",
+          "minutes": 84
+        },
+        {
+          "from_station": "Sirnach",
+          "to_station": "Langwiesen ZH",
+          "minutes": 84
+        },
+        {
+          "from_station": "Münchwilen TG",
+          "to_station": "Langwiesen ZH",
+          "minutes": 77
+        }
+      ],
+      "shortest": {
+        "from_station": "Frauenfeld",
+        "to_station": "Zürich HB",
+        "minutes": 37
+      }
+    },
+    "St. Gallen": {
+      "connections": [
+        {
+          "from_station": "Frauenfeld",
+          "to_station": "St. Gallen",
+          "minutes": 58
+        },
+        {
+          "from_station": "Romanshorn",
+          "to_station": "St. Gallen",
+          "minutes": 18
+        },
+        {
+          "from_station": "Aadorf",
+          "to_station": "St. Gallen",
+          "minutes": 44
+        },
+        {
+          "from_station": "Sirnach",
+          "to_station": "St. Gallen",
+          "minutes": 34
+        },
+        {
+          "from_station": "Münchwilen TG",
+          "to_station": "St. Gallen",
+          "minutes": 38
+        },
+        {
+          "from_station": "Frauenfeld",
+          "to_station": "Rapperswil",
+          "minutes": 73
+        },
+        {
+          "from_station": "Romanshorn",
+          "to_station": "Rapperswil",
+          "minutes": 86
+        },
+        {
+          "from_station": "Aadorf",
+          "to_station": "Rapperswil",
+          "minutes": 74
+        },
+        {
+          "from_station": "Sirnach",
+          "to_station": "Rapperswil",
+          "minutes": 64
+        },
+        {
+          "from_station": "Münchwilen TG",
+          "to_station": "Rapperswil",
+          "minutes": 68
+        },
+        {
+          "from_station": "Frauenfeld",
+          "to_station": "Wattwil",
+          "minutes": 64
+        },
+        {
+          "from_station": "Romanshorn",
+          "to_station": "Wattwil",
+          "minutes": 63
+        },
+        {
+          "from_station": "Aadorf",
+          "to_station": "Wattwil",
+          "minutes": 56
+        },
+        {
+          "from_station": "Sirnach",
+          "to_station": "Wattwil",
+          "minutes": 36
+        },
+        {
+          "from_station": "Münchwilen TG",
+          "to_station": "Wattwil",
+          "minutes": 40
+        },
+        {
+          "from_station": "Frauenfeld",
+          "to_station": "Wil SG",
+          "minutes": 28
+        },
+        {
+          "from_station": "Romanshorn",
+          "to_station": "Wil SG",
+          "minutes": 51
+        },
+        {
+          "from_station": "Aadorf",
+          "to_station": "Wil SG",
+          "minutes": 13
+        },
+        {
+          "from_station": "Sirnach",
+          "to_station": "Wil SG",
+          "minutes": 3
+        },
+        {
+          "from_station": "Münchwilen TG",
+          "to_station": "Wil SG",
+          "minutes": 4
+        },
+        {
+          "from_station": "Frauenfeld",
+          "to_station": "Sargans",
+          "minutes": 102
+        },
+        {
+          "from_station": "Romanshorn",
+          "to_station": "Sargans",
+          "minutes": 68
+        },
+        {
+          "from_station": "Aadorf",
+          "to_station": "Sargans",
+          "minutes": 116
+        },
+        {
+          "from_station": "Sirnach",
+          "to_station": "Sargans",
+          "minutes": 99
+        },
+        {
+          "from_station": "Münchwilen TG",
+          "to_station": "Sargans",
+          "minutes": 94
+        },
+        {
+          "from_station": "Frauenfeld",
+          "to_station": "Uznach",
+          "minutes": 81
+        },
+        {
+          "from_station": "Romanshorn",
+          "to_station": "Uznach",
+          "minutes": 76
+        },
+        {
+          "from_station": "Aadorf",
+          "to_station": "Uznach",
+          "minutes": 73
+        },
+        {
+          "from_station": "Sirnach",
+          "to_station": "Uznach",
+          "minutes": 53
+        },
+        {
+          "from_station": "Münchwilen TG",
+          "to_station": "Uznach",
+          "minutes": 57
+        },
+        {
+          "from_station": "Frauenfeld",
+          "to_station": "Gossau SG",
+          "minutes": 55
+        },
+        {
+          "from_station": "Romanshorn",
+          "to_station": "Gossau SG",
+          "minutes": 42
+        },
+        {
+          "from_station": "Aadorf",
+          "to_station": "Gossau SG",
+          "minutes": 35
+        },
+        {
+          "from_station": "Sirnach",
+          "to_station": "Gossau SG",
+          "minutes": 25
+        },
+        {
+          "from_station": "Münchwilen TG",
+          "to_station": "Gossau SG",
+          "minutes": 31
+        },
+        {
+          "from_station": "Frauenfeld",
+          "to_station": "Heerbrugg",
+          "minutes": 71
+        },
+        {
+          "from_station": "Romanshorn",
+          "to_station": "Heerbrugg",
+          "minutes": 37
+        },
+        {
+          "from_station": "Aadorf",
+          "to_station": "Heerbrugg",
+          "minutes": 85
+        },
+        {
+          "from_station": "Sirnach",
+          "to_station": "Heerbrugg",
+          "minutes": 69
+        },
+        {
+          "from_station": "Münchwilen TG",
+          "to_station": "Heerbrugg",
+          "minutes": 69
+        },
+        {
+          "from_station": "Frauenfeld",
+          "to_station": "Rheineck",
+          "minutes": 72
+        },
+        {
+          "from_station": "Romanshorn",
+          "to_station": "Rheineck",
+          "minutes": 38
+        },
+        {
+          "from_station": "Aadorf",
+          "to_station": "Rheineck",
+          "minutes": 86
+        },
+        {
+          "from_station": "Sirnach",
+          "to_station": "Rheineck",
+          "minutes": 70
+        },
+        {
+          "from_station": "Münchwilen TG",
+          "to_station": "Rheineck",
+          "minutes": 70
+        },
+        {
+          "from_station": "Frauenfeld",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 55
+        },
+        {
+          "from_station": "Romanshorn",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 24
+        },
+        {
+          "from_station": "Aadorf",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 56
+        },
+        {
+          "from_station": "Sirnach",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 46
+        },
+        {
+          "from_station": "Münchwilen TG",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 47
+        }
+      ],
+      "shortest": {
+        "from_station": "Sirnach",
+        "to_station": "Wil SG",
+        "minutes": 3
+      }
+    },
+    "Schaffhausen": {
+      "connections": [
+        {
+          "from_station": "Frauenfeld",
+          "to_station": "Schaffhausen",
+          "minutes": 50
+        },
+        {
+          "from_station": "Frauenfeld",
+          "to_station": "Neuhausen",
+          "minutes": 46
+        },
+        {
+          "from_station": "Frauenfeld",
+          "to_station": "Stein am Rhein",
+          "minutes": 32
+        },
+        {
+          "from_station": "Romanshorn",
+          "to_station": "Schaffhausen",
+          "minutes": 72
+        },
+        {
+          "from_station": "Romanshorn",
+          "to_station": "Neuhausen",
+          "minutes": 77
+        },
+        {
+          "from_station": "Romanshorn",
+          "to_station": "Stein am Rhein",
+          "minutes": 55
+        },
+        {
+          "from_station": "Aadorf",
+          "to_station": "Schaffhausen",
+          "minutes": 67
+        },
+        {
+          "from_station": "Aadorf",
+          "to_station": "Neuhausen",
+          "minutes": 63
+        },
+        {
+          "from_station": "Aadorf",
+          "to_station": "Stein am Rhein",
+          "minutes": 73
+        },
+        {
+          "from_station": "Sirnach",
+          "to_station": "Schaffhausen",
+          "minutes": 77
+        },
+        {
+          "from_station": "Sirnach",
+          "to_station": "Neuhausen",
+          "minutes": 73
+        },
+        {
+          "from_station": "Sirnach",
+          "to_station": "Stein am Rhein",
+          "minutes": 74
+        },
+        {
+          "from_station": "Münchwilen TG",
+          "to_station": "Schaffhausen",
+          "minutes": 83
+        },
+        {
+          "from_station": "Münchwilen TG",
+          "to_station": "Neuhausen",
+          "minutes": 79
+        },
+        {
+          "from_station": "Münchwilen TG",
+          "to_station": "Stein am Rhein",
+          "minutes": 62
+        }
+      ],
+      "shortest": {
+        "from_station": "Frauenfeld",
+        "to_station": "Stein am Rhein",
+        "minutes": 32
+      }
+    }
+  },
+  "Schaffhausen": {
+    "Zurich": {
+      "connections": [
+        {
+          "from_station": "Schaffhausen",
+          "to_station": "Zürich HB",
+          "minutes": 36
+        },
+        {
+          "from_station": "Neuhausen",
+          "to_station": "Zürich HB",
+          "minutes": 44
+        },
+        {
+          "from_station": "Stein am Rhein",
+          "to_station": "Zürich HB",
+          "minutes": 66
+        },
+        {
+          "from_station": "Schaffhausen",
+          "to_station": "Langwiesen ZH",
+          "minutes": 9
+        },
+        {
+          "from_station": "Neuhausen",
+          "to_station": "Langwiesen ZH",
+          "minutes": 14
+        },
+        {
+          "from_station": "Stein am Rhein",
+          "to_station": "Langwiesen ZH",
+          "minutes": 20
+        }
+      ],
+      "shortest": {
+        "from_station": "Schaffhausen",
+        "to_station": "Langwiesen ZH",
+        "minutes": 9
+      }
+    },
+    "Thurgau": {
+      "connections": [
+        {
+          "from_station": "Schaffhausen",
+          "to_station": "Frauenfeld",
+          "minutes": 50
+        },
+        {
+          "from_station": "Neuhausen",
+          "to_station": "Frauenfeld",
+          "minutes": 46
+        },
+        {
+          "from_station": "Stein am Rhein",
+          "to_station": "Frauenfeld",
+          "minutes": 32
+        },
+        {
+          "from_station": "Schaffhausen",
+          "to_station": "Romanshorn",
+          "minutes": 72
+        },
+        {
+          "from_station": "Neuhausen",
+          "to_station": "Romanshorn",
+          "minutes": 77
+        },
+        {
+          "from_station": "Stein am Rhein",
+          "to_station": "Romanshorn",
+          "minutes": 55
+        },
+        {
+          "from_station": "Schaffhausen",
+          "to_station": "Aadorf",
+          "minutes": 67
+        },
+        {
+          "from_station": "Neuhausen",
+          "to_station": "Aadorf",
+          "minutes": 63
+        },
+        {
+          "from_station": "Stein am Rhein",
+          "to_station": "Aadorf",
+          "minutes": 73
+        },
+        {
+          "from_station": "Schaffhausen",
+          "to_station": "Sirnach",
+          "minutes": 77
+        },
+        {
+          "from_station": "Neuhausen",
+          "to_station": "Sirnach",
+          "minutes": 73
+        },
+        {
+          "from_station": "Stein am Rhein",
+          "to_station": "Sirnach",
+          "minutes": 74
+        },
+        {
+          "from_station": "Schaffhausen",
+          "to_station": "Münchwilen TG",
+          "minutes": 83
+        },
+        {
+          "from_station": "Neuhausen",
+          "to_station": "Münchwilen TG",
+          "minutes": 79
+        },
+        {
+          "from_station": "Stein am Rhein",
+          "to_station": "Münchwilen TG",
+          "minutes": 62
+        }
+      ],
+      "shortest": {
+        "from_station": "Stein am Rhein",
+        "to_station": "Frauenfeld",
+        "minutes": 32
+      }
+    }
+  },
+  "Glarus": {
+    "St. Gallen": {
+      "connections": [
+        {
+          "from_station": "Ziegelbrücke",
+          "to_station": "St. Gallen",
+          "minutes": 52
+        },
+        {
+          "from_station": "Mühlehorn",
+          "to_station": "St. Gallen",
+          "minutes": 68
+        },
+        {
+          "from_station": "Ziegelbrücke",
+          "to_station": "Rapperswil",
+          "minutes": 24
+        },
+        {
+          "from_station": "Mühlehorn",
+          "to_station": "Rapperswil",
+          "minutes": 31
+        },
+        {
+          "from_station": "Ziegelbrücke",
+          "to_station": "Wattwil",
+          "minutes": 25
+        },
+        {
+          "from_station": "Mühlehorn",
+          "to_station": "Wattwil",
+          "minutes": 33
+        },
+        {
+          "from_station": "Ziegelbrücke",
+          "to_station": "Wil SG",
+          "minutes": 55
+        },
+        {
+          "from_station": "Mühlehorn",
+          "to_station": "Wil SG",
+          "minutes": 62
+        },
+        {
+          "from_station": "Ziegelbrücke",
+          "to_station": "Sargans",
+          "minutes": 26
+        },
+        {
+          "from_station": "Mühlehorn",
+          "to_station": "Sargans",
+          "minutes": 23
+        },
+        {
+          "from_station": "Ziegelbrücke",
+          "to_station": "Uznach",
+          "minutes": 11
+        },
+        {
+          "from_station": "Mühlehorn",
+          "to_station": "Uznach",
+          "minutes": 18
+        },
+        {
+          "from_station": "Ziegelbrücke",
+          "to_station": "Gossau SG",
+          "minutes": 66
+        },
+        {
+          "from_station": "Mühlehorn",
+          "to_station": "Gossau SG",
+          "minutes": 73
+        },
+        {
+          "from_station": "Ziegelbrücke",
+          "to_station": "Heerbrugg",
+          "minutes": 66
+        },
+        {
+          "from_station": "Mühlehorn",
+          "to_station": "Heerbrugg",
+          "minutes": 62
+        },
+        {
+          "from_station": "Ziegelbrücke",
+          "to_station": "Rheineck",
+          "minutes": 82
+        },
+        {
+          "from_station": "Mühlehorn",
+          "to_station": "Rheineck",
+          "minutes": 83
+        },
+        {
+          "from_station": "Ziegelbrücke",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 59
+        },
+        {
+          "from_station": "Mühlehorn",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 78
+        }
+      ],
+      "shortest": {
+        "from_station": "Ziegelbrücke",
+        "to_station": "Uznach",
+        "minutes": 11
+      }
+    },
+    "Schwyz": {
+      "connections": [
+        {
+          "from_station": "Ziegelbrücke",
+          "to_station": "Arth-Goldau",
+          "minutes": 71
+        },
+        {
+          "from_station": "Ziegelbrücke",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 17
+        },
+        {
+          "from_station": "Mühlehorn",
+          "to_station": "Arth-Goldau",
+          "minutes": 80
+        },
+        {
+          "from_station": "Mühlehorn",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 26
+        }
+      ],
+      "shortest": {
+        "from_station": "Ziegelbrücke",
+        "to_station": "Pfäffikon SZ",
+        "minutes": 17
+      }
+    },
+    "Uri": {
+      "connections": [
+        {
+          "from_station": "Ziegelbrücke",
+          "to_station": "Altdorf UR",
+          "minutes": 94
+        },
+        {
+          "from_station": "Mühlehorn",
+          "to_station": "Altdorf UR",
+          "minutes": 103
+        }
+      ],
+      "shortest": {
+        "from_station": "Ziegelbrücke",
+        "to_station": "Altdorf UR",
+        "minutes": 94
+      }
+    },
+    "Graubünden": {
+      "connections": [
+        {
+          "from_station": "Ziegelbrücke",
+          "to_station": "Landquart",
+          "minutes": 38
+        },
+        {
+          "from_station": "Ziegelbrücke",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 153
+        },
+        {
+          "from_station": "Mühlehorn",
+          "to_station": "Landquart",
+          "minutes": 37
+        },
+        {
+          "from_station": "Mühlehorn",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 162
+        }
+      ],
+      "shortest": {
+        "from_station": "Mühlehorn",
+        "to_station": "Landquart",
+        "minutes": 37
+      }
+    }
+  },
+  "Graubünden": {
+    "St. Gallen": {
+      "connections": [
+        {
+          "from_station": "Landquart",
+          "to_station": "St. Gallen",
+          "minutes": 73
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "St. Gallen",
+          "minutes": 182
+        },
+        {
+          "from_station": "Landquart",
+          "to_station": "Rapperswil",
+          "minutes": 65
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "Rapperswil",
+          "minutes": 131
+        },
+        {
+          "from_station": "Landquart",
+          "to_station": "Wattwil",
+          "minutes": 66
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "Wattwil",
+          "minutes": 155
+        },
+        {
+          "from_station": "Landquart",
+          "to_station": "Wil SG",
+          "minutes": 96
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "Wil SG",
+          "minutes": 183
+        },
+        {
+          "from_station": "Landquart",
+          "to_station": "Sargans",
+          "minutes": 8
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "Sargans",
+          "minutes": 161
+        },
+        {
+          "from_station": "Landquart",
+          "to_station": "Uznach",
+          "minutes": 52
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "Uznach",
+          "minutes": 144
+        },
+        {
+          "from_station": "Landquart",
+          "to_station": "Gossau SG",
+          "minutes": 84
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "Gossau SG",
+          "minutes": 196
+        },
+        {
+          "from_station": "Landquart",
+          "to_station": "Heerbrugg",
+          "minutes": 45
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "Heerbrugg",
+          "minutes": 204
+        },
+        {
+          "from_station": "Landquart",
+          "to_station": "Rheineck",
+          "minutes": 66
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "Rheineck",
+          "minutes": 212
+        },
+        {
+          "from_station": "Landquart",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 82
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 189
+        }
+      ],
+      "shortest": {
+        "from_station": "Landquart",
+        "to_station": "Sargans",
+        "minutes": 8
+      }
+    },
+    "Glarus": {
+      "connections": [
+        {
+          "from_station": "Landquart",
+          "to_station": "Ziegelbrücke",
+          "minutes": 38
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "Ziegelbrücke",
+          "minutes": 153
+        },
+        {
+          "from_station": "Landquart",
+          "to_station": "Mühlehorn",
+          "minutes": 37
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "Mühlehorn",
+          "minutes": 162
+        }
+      ],
+      "shortest": {
+        "from_station": "Landquart",
+        "to_station": "Mühlehorn",
+        "minutes": 37
+      }
+    },
+    "Uri": {
+      "connections": [
+        {
+          "from_station": "Landquart",
+          "to_station": "Altdorf UR",
+          "minutes": 148
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "Altdorf UR",
+          "minutes": 59
+        }
+      ],
+      "shortest": {
+        "from_station": "S. Vittore, Zona industriale",
+        "to_station": "Altdorf UR",
+        "minutes": 59
+      }
+    },
+    "Ticino": {
+      "connections": [
+        {
+          "from_station": "Landquart",
+          "to_station": "Bellinzona",
+          "minutes": 141
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "Bellinzona",
+          "minutes": 17
+        },
+        {
+          "from_station": "Landquart",
+          "to_station": "Biasca",
+          "minutes": 172
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "Biasca",
+          "minutes": 22
+        },
+        {
+          "from_station": "Landquart",
+          "to_station": "Castione-Arbedo",
+          "minutes": 156
+        },
+        {
+          "from_station": "S. Vittore, Zona industriale",
+          "to_station": "Castione-Arbedo",
+          "minutes": 9
+        }
+      ],
+      "shortest": {
+        "from_station": "S. Vittore, Zona industriale",
+        "to_station": "Castione-Arbedo",
+        "minutes": 9
+      }
+    }
+  },
+  "Appenzell Ausserrhoden": {
+    "St. Gallen": {
+      "connections": [
+        {
+          "from_station": "Herisau",
+          "to_station": "St. Gallen",
+          "minutes": 7
+        },
+        {
+          "from_station": "Heiden, Post",
+          "to_station": "St. Gallen",
+          "minutes": 35
+        },
+        {
+          "from_station": "Herisau",
+          "to_station": "Rapperswil",
+          "minutes": 39
+        },
+        {
+          "from_station": "Heiden, Post",
+          "to_station": "Rapperswil",
+          "minutes": 104
+        },
+        {
+          "from_station": "Herisau",
+          "to_station": "Wattwil",
+          "minutes": 19
+        },
+        {
+          "from_station": "Heiden, Post",
+          "to_station": "Wattwil",
+          "minutes": 82
+        },
+        {
+          "from_station": "Herisau",
+          "to_station": "Wil SG",
+          "minutes": 32
+        },
+        {
+          "from_station": "Heiden, Post",
+          "to_station": "Wil SG",
+          "minutes": 68
+        },
+        {
+          "from_station": "Herisau",
+          "to_station": "Sargans",
+          "minutes": 71
+        },
+        {
+          "from_station": "Heiden, Post",
+          "to_station": "Sargans",
+          "minutes": 60
+        },
+        {
+          "from_station": "Herisau",
+          "to_station": "Uznach",
+          "minutes": 29
+        },
+        {
+          "from_station": "Heiden, Post",
+          "to_station": "Uznach",
+          "minutes": 93
+        },
+        {
+          "from_station": "Herisau",
+          "to_station": "Gossau SG",
+          "minutes": 7
+        },
+        {
+          "from_station": "Heiden, Post",
+          "to_station": "Gossau SG",
+          "minutes": 50
+        },
+        {
+          "from_station": "Herisau",
+          "to_station": "Heerbrugg",
+          "minutes": 40
+        },
+        {
+          "from_station": "Heiden, Post",
+          "to_station": "Heerbrugg",
+          "minutes": 27
+        },
+        {
+          "from_station": "Herisau",
+          "to_station": "Rheineck",
+          "minutes": 37
+        },
+        {
+          "from_station": "Heiden, Post",
+          "to_station": "Rheineck",
+          "minutes": 18
+        },
+        {
+          "from_station": "Herisau",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 14
+        },
+        {
+          "from_station": "Heiden, Post",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 43
+        }
+      ],
+      "shortest": {
+        "from_station": "Herisau",
+        "to_station": "St. Gallen",
+        "minutes": 7
+      }
+    },
+    "Appenzell Innerrhoden": {
+      "connections": [
+        {
+          "from_station": "Herisau",
+          "to_station": "Jakobsbad",
+          "minutes": 20
+        },
+        {
+          "from_station": "Herisau",
+          "to_station": "Oberegg, Post",
+          "minutes": 67
+        },
+        {
+          "from_station": "Heiden, Post",
+          "to_station": "Jakobsbad",
+          "minutes": 82
+        },
+        {
+          "from_station": "Heiden, Post",
+          "to_station": "Oberegg, Post",
+          "minutes": 7
+        }
+      ],
+      "shortest": {
+        "from_station": "Heiden, Post",
+        "to_station": "Oberegg, Post",
+        "minutes": 7
+      }
+    }
+  },
+  "Appenzell Innerrhoden": {
+    "St. Gallen": {
+      "connections": [
+        {
+          "from_station": "Jakobsbad",
+          "to_station": "St. Gallen",
+          "minutes": 34
+        },
+        {
+          "from_station": "Oberegg, Post",
+          "to_station": "St. Gallen",
+          "minutes": 49
+        },
+        {
+          "from_station": "Jakobsbad",
+          "to_station": "Rapperswil",
+          "minutes": 71
+        },
+        {
+          "from_station": "Oberegg, Post",
+          "to_station": "Rapperswil",
+          "minutes": 112
+        },
+        {
+          "from_station": "Jakobsbad",
+          "to_station": "Wattwil",
+          "minutes": 48
+        },
+        {
+          "from_station": "Oberegg, Post",
+          "to_station": "Wattwil",
+          "minutes": 92
+        },
+        {
+          "from_station": "Jakobsbad",
+          "to_station": "Wil SG",
+          "minutes": 52
+        },
+        {
+          "from_station": "Oberegg, Post",
+          "to_station": "Wil SG",
+          "minutes": 82
+        },
+        {
+          "from_station": "Jakobsbad",
+          "to_station": "Sargans",
+          "minutes": 103
+        },
+        {
+          "from_station": "Oberegg, Post",
+          "to_station": "Sargans",
+          "minutes": 50
+        },
+        {
+          "from_station": "Jakobsbad",
+          "to_station": "Uznach",
+          "minutes": 60
+        },
+        {
+          "from_station": "Oberegg, Post",
+          "to_station": "Uznach",
+          "minutes": 99
+        },
+        {
+          "from_station": "Jakobsbad",
+          "to_station": "Gossau SG",
+          "minutes": 27
+        },
+        {
+          "from_station": "Oberegg, Post",
+          "to_station": "Gossau SG",
+          "minutes": 64
+        },
+        {
+          "from_station": "Jakobsbad",
+          "to_station": "Heerbrugg",
+          "minutes": 68
+        },
+        {
+          "from_station": "Oberegg, Post",
+          "to_station": "Heerbrugg",
+          "minutes": 17
+        },
+        {
+          "from_station": "Jakobsbad",
+          "to_station": "Rheineck",
+          "minutes": 73
+        },
+        {
+          "from_station": "Oberegg, Post",
+          "to_station": "Rheineck",
+          "minutes": 42
+        },
+        {
+          "from_station": "Jakobsbad",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 43
+        },
+        {
+          "from_station": "Oberegg, Post",
+          "to_station": "St. Gallen St. Fiden",
+          "minutes": 55
+        }
+      ],
+      "shortest": {
+        "from_station": "Oberegg, Post",
+        "to_station": "Heerbrugg",
+        "minutes": 17
+      }
+    },
+    "Appenzell Ausserrhoden": {
+      "connections": [
+        {
+          "from_station": "Jakobsbad",
+          "to_station": "Herisau",
+          "minutes": 20
+        },
+        {
+          "from_station": "Oberegg, Post",
+          "to_station": "Herisau",
+          "minutes": 67
+        },
+        {
+          "from_station": "Jakobsbad",
+          "to_station": "Heiden, Post",
+          "minutes": 82
+        },
+        {
+          "from_station": "Oberegg, Post",
+          "to_station": "Heiden, Post",
+          "minutes": 7
+        }
+      ],
+      "shortest": {
+        "from_station": "Oberegg, Post",
+        "to_station": "Heiden, Post",
+        "minutes": 7
+      }
+    }
+  },
+  "Uri": {
+    "Glarus": {
+      "connections": [
+        {
+          "from_station": "Altdorf UR",
+          "to_station": "Ziegelbrücke",
+          "minutes": 94
+        },
+        {
+          "from_station": "Altdorf UR",
+          "to_station": "Mühlehorn",
+          "minutes": 103
+        }
+      ],
+      "shortest": {
+        "from_station": "Altdorf UR",
+        "to_station": "Ziegelbrücke",
+        "minutes": 94
+      }
+    },
+    "Schwyz": {
+      "connections": [
+        {
+          "from_station": "Altdorf UR",
+          "to_station": "Arth-Goldau",
+          "minutes": 19
+        },
+        {
+          "from_station": "Altdorf UR",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 66
+        }
+      ],
+      "shortest": {
+        "from_station": "Altdorf UR",
+        "to_station": "Arth-Goldau",
+        "minutes": 19
+      }
+    },
+    "Graubünden": {
+      "connections": [
+        {
+          "from_station": "Altdorf UR",
+          "to_station": "Landquart",
+          "minutes": 148
+        },
+        {
+          "from_station": "Altdorf UR",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 59
+        }
+      ],
+      "shortest": {
+        "from_station": "Altdorf UR",
+        "to_station": "S. Vittore, Zona industriale",
+        "minutes": 59
+      }
+    },
+    "Ticino": {
+      "connections": [
+        {
+          "from_station": "Altdorf UR",
+          "to_station": "Bellinzona",
+          "minutes": 34
+        },
+        {
+          "from_station": "Altdorf UR",
+          "to_station": "Biasca",
+          "minutes": 59
+        },
+        {
+          "from_station": "Altdorf UR",
+          "to_station": "Castione-Arbedo",
+          "minutes": 46
+        }
+      ],
+      "shortest": {
+        "from_station": "Altdorf UR",
+        "to_station": "Bellinzona",
+        "minutes": 34
+      }
+    },
+    "Valais": {
+      "connections": [
+        {
+          "from_station": "Altdorf UR",
+          "to_station": "St-Maurice",
+          "minutes": 245
+        }
+      ],
+      "shortest": {
+        "from_station": "Altdorf UR",
+        "to_station": "St-Maurice",
+        "minutes": 245
+      }
+    },
+    "Bern": {
+      "connections": [
+        {
+          "from_station": "Altdorf UR",
+          "to_station": "Bern",
+          "minutes": 113
+        },
+        {
+          "from_station": "Altdorf UR",
+          "to_station": "Biel/Bienne",
+          "minutes": 128
+        },
+        {
+          "from_station": "Altdorf UR",
+          "to_station": "Lyss",
+          "minutes": 141
+        }
+      ],
+      "shortest": {
+        "from_station": "Altdorf UR",
+        "to_station": "Bern",
+        "minutes": 113
+      }
+    },
+    "Obwalden": {
+      "connections": [
+        {
+          "from_station": "Altdorf UR",
+          "to_station": "Alpnachstad",
+          "minutes": 65
+        }
+      ],
+      "shortest": {
+        "from_station": "Altdorf UR",
+        "to_station": "Alpnachstad",
+        "minutes": 65
+      }
+    },
+    "Nidwalden": {
+      "connections": [
+        {
+          "from_station": "Altdorf UR",
+          "to_station": "Hergiswil NW",
+          "minutes": 54
+        }
+      ],
+      "shortest": {
+        "from_station": "Altdorf UR",
+        "to_station": "Hergiswil NW",
+        "minutes": 54
+      }
+    }
+  },
+  "Lucerne": {
+    "Aargau": {
+      "connections": [
+        {
+          "from_station": "Luzern",
+          "to_station": "Aarau",
+          "minutes": 50
+        },
+        {
+          "from_station": "Luzern",
+          "to_station": "Zofingen",
+          "minutes": 31
+        },
+        {
+          "from_station": "Luzern",
+          "to_station": "Baden",
+          "minutes": 72
+        },
+        {
+          "from_station": "Luzern",
+          "to_station": "Brugg",
+          "minutes": 65
+        },
+        {
+          "from_station": "Sursee",
+          "to_station": "Aarau",
+          "minutes": 39
+        },
+        {
+          "from_station": "Sursee",
+          "to_station": "Zofingen",
+          "minutes": 13
+        },
+        {
+          "from_station": "Sursee",
+          "to_station": "Baden",
+          "minutes": 69
+        },
+        {
+          "from_station": "Sursee",
+          "to_station": "Brugg",
+          "minutes": 58
+        }
+      ],
+      "shortest": {
+        "from_station": "Sursee",
+        "to_station": "Zofingen",
+        "minutes": 13
+      }
+    },
+    "Zug": {
+      "connections": [
+        {
+          "from_station": "Luzern",
+          "to_station": "Zug",
+          "minutes": 19
+        },
+        {
+          "from_station": "Sursee",
+          "to_station": "Zug",
+          "minutes": 45
+        }
+      ],
+      "shortest": {
+        "from_station": "Luzern",
+        "to_station": "Zug",
+        "minutes": 19
+      }
+    },
+    "Schwyz": {
+      "connections": [
+        {
+          "from_station": "Luzern",
+          "to_station": "Arth-Goldau",
+          "minutes": 27
+        },
+        {
+          "from_station": "Luzern",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 64
+        },
+        {
+          "from_station": "Sursee",
+          "to_station": "Arth-Goldau",
+          "minutes": 56
+        },
+        {
+          "from_station": "Sursee",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 87
+        }
+      ],
+      "shortest": {
+        "from_station": "Luzern",
+        "to_station": "Arth-Goldau",
+        "minutes": 27
+      }
+    },
+    "Nidwalden": {
+      "connections": [
+        {
+          "from_station": "Luzern",
+          "to_station": "Hergiswil NW",
+          "minutes": 10
+        },
+        {
+          "from_station": "Sursee",
+          "to_station": "Hergiswil NW",
+          "minutes": 34
+        }
+      ],
+      "shortest": {
+        "from_station": "Luzern",
+        "to_station": "Hergiswil NW",
+        "minutes": 10
+      }
+    },
+    "Obwalden": {
+      "connections": [
+        {
+          "from_station": "Luzern",
+          "to_station": "Alpnachstad",
+          "minutes": 16
+        },
+        {
+          "from_station": "Sursee",
+          "to_station": "Alpnachstad",
+          "minutes": 46
+        }
+      ],
+      "shortest": {
+        "from_station": "Luzern",
+        "to_station": "Alpnachstad",
+        "minutes": 16
+      }
+    },
+    "Bern": {
+      "connections": [
+        {
+          "from_station": "Luzern",
+          "to_station": "Bern",
+          "minutes": 60
+        },
+        {
+          "from_station": "Luzern",
+          "to_station": "Biel/Bienne",
+          "minutes": 81
+        },
+        {
+          "from_station": "Luzern",
+          "to_station": "Lyss",
+          "minutes": 88
+        },
+        {
+          "from_station": "Sursee",
+          "to_station": "Bern",
+          "minutes": 42
+        },
+        {
+          "from_station": "Sursee",
+          "to_station": "Biel/Bienne",
+          "minutes": 76
+        },
+        {
+          "from_station": "Sursee",
+          "to_station": "Lyss",
+          "minutes": 70
+        }
+      ],
+      "shortest": {
+        "from_station": "Sursee",
+        "to_station": "Bern",
+        "minutes": 42
+      }
+    }
+  },
+  "Nidwalden": {
+    "Lucerne": {
+      "connections": [
+        {
+          "from_station": "Hergiswil NW",
+          "to_station": "Luzern",
+          "minutes": 10
+        },
+        {
+          "from_station": "Hergiswil NW",
+          "to_station": "Sursee",
+          "minutes": 34
+        }
+      ],
+      "shortest": {
+        "from_station": "Hergiswil NW",
+        "to_station": "Luzern",
+        "minutes": 10
+      }
+    },
+    "Schwyz": {
+      "connections": [
+        {
+          "from_station": "Hergiswil NW",
+          "to_station": "Arth-Goldau",
+          "minutes": 50
+        },
+        {
+          "from_station": "Hergiswil NW",
+          "to_station": "Pfäffikon SZ",
+          "minutes": 87
+        }
+      ],
+      "shortest": {
+        "from_station": "Hergiswil NW",
+        "to_station": "Arth-Goldau",
+        "minutes": 50
+      }
+    },
+    "Uri": {
+      "connections": [
+        {
+          "from_station": "Hergiswil NW",
+          "to_station": "Altdorf UR",
+          "minutes": 54
+        }
+      ],
+      "shortest": {
+        "from_station": "Hergiswil NW",
+        "to_station": "Altdorf UR",
+        "minutes": 54
+      }
+    },
+    "Obwalden": {
+      "connections": [
+        {
+          "from_station": "Hergiswil NW",
+          "to_station": "Alpnachstad",
+          "minutes": 4
+        }
+      ],
+      "shortest": {
+        "from_station": "Hergiswil NW",
+        "to_station": "Alpnachstad",
+        "minutes": 4
+      }
+    },
+    "Bern": {
+      "connections": [
+        {
+          "from_station": "Hergiswil NW",
+          "to_station": "Bern",
+          "minutes": 87
+        },
+        {
+          "from_station": "Hergiswil NW",
+          "to_station": "Biel/Bienne",
+          "minutes": 102
+        },
+        {
+          "from_station": "Hergiswil NW",
+          "to_station": "Lyss",
+          "minutes": 115
+        }
+      ],
+      "shortest": {
+        "from_station": "Hergiswil NW",
+        "to_station": "Bern",
+        "minutes": 87
+      }
+    }
+  },
+  "Obwalden": {
+    "Lucerne": {
+      "connections": [
+        {
+          "from_station": "Alpnachstad",
+          "to_station": "Luzern",
+          "minutes": 16
+        },
+        {
+          "from_station": "Alpnachstad",
+          "to_station": "Sursee",
+          "minutes": 46
+        }
+      ],
+      "shortest": {
+        "from_station": "Alpnachstad",
+        "to_station": "Luzern",
+        "minutes": 16
+      }
+    },
+    "Uri": {
+      "connections": [
+        {
+          "from_station": "Alpnachstad",
+          "to_station": "Altdorf UR",
+          "minutes": 65
+        }
+      ],
+      "shortest": {
+        "from_station": "Alpnachstad",
+        "to_station": "Altdorf UR",
+        "minutes": 65
+      }
+    },
+    "Nidwalden": {
+      "connections": [
+        {
+          "from_station": "Alpnachstad",
+          "to_station": "Hergiswil NW",
+          "minutes": 4
+        }
+      ],
+      "shortest": {
+        "from_station": "Alpnachstad",
+        "to_station": "Hergiswil NW",
+        "minutes": 4
+      }
+    },
+    "Bern": {
+      "connections": [
+        {
+          "from_station": "Alpnachstad",
+          "to_station": "Bern",
+          "minutes": 91
+        },
+        {
+          "from_station": "Alpnachstad",
+          "to_station": "Biel/Bienne",
+          "minutes": 106
+        },
+        {
+          "from_station": "Alpnachstad",
+          "to_station": "Lyss",
+          "minutes": 119
+        }
+      ],
+      "shortest": {
+        "from_station": "Alpnachstad",
+        "to_station": "Bern",
+        "minutes": 91
+      }
+    }
+  },
+  "Bern": {
+    "Lucerne": {
+      "connections": [
+        {
+          "from_station": "Bern",
+          "to_station": "Luzern",
+          "minutes": 60
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Luzern",
+          "minutes": 81
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Luzern",
+          "minutes": 88
+        },
+        {
+          "from_station": "Bern",
+          "to_station": "Sursee",
+          "minutes": 42
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Sursee",
+          "minutes": 76
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Sursee",
+          "minutes": 70
+        }
+      ],
+      "shortest": {
+        "from_station": "Bern",
+        "to_station": "Sursee",
+        "minutes": 42
+      }
+    },
+    "Uri": {
+      "connections": [
+        {
+          "from_station": "Bern",
+          "to_station": "Altdorf UR",
+          "minutes": 113
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Altdorf UR",
+          "minutes": 128
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Altdorf UR",
+          "minutes": 141
+        }
+      ],
+      "shortest": {
+        "from_station": "Bern",
+        "to_station": "Altdorf UR",
+        "minutes": 113
+      }
+    },
+    "Nidwalden": {
+      "connections": [
+        {
+          "from_station": "Bern",
+          "to_station": "Hergiswil NW",
+          "minutes": 87
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Hergiswil NW",
+          "minutes": 102
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Hergiswil NW",
+          "minutes": 115
+        }
+      ],
+      "shortest": {
+        "from_station": "Bern",
+        "to_station": "Hergiswil NW",
+        "minutes": 87
+      }
+    },
+    "Obwalden": {
+      "connections": [
+        {
+          "from_station": "Bern",
+          "to_station": "Alpnachstad",
+          "minutes": 91
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Alpnachstad",
+          "minutes": 106
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Alpnachstad",
+          "minutes": 119
+        }
+      ],
+      "shortest": {
+        "from_station": "Bern",
+        "to_station": "Alpnachstad",
+        "minutes": 91
+      }
+    },
+    "Aargau": {
+      "connections": [
+        {
+          "from_station": "Bern",
+          "to_station": "Aarau",
+          "minutes": 38
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Aarau",
+          "minutes": 45
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Aarau",
+          "minutes": 60
+        },
+        {
+          "from_station": "Bern",
+          "to_station": "Zofingen",
+          "minutes": 28
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Zofingen",
+          "minutes": 58
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Zofingen",
+          "minutes": 56
+        },
+        {
+          "from_station": "Bern",
+          "to_station": "Baden",
+          "minutes": 62
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Baden",
+          "minutes": 81
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Baden",
+          "minutes": 90
+        },
+        {
+          "from_station": "Bern",
+          "to_station": "Brugg",
+          "minutes": 52
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Brugg",
+          "minutes": 68
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Brugg",
+          "minutes": 80
+        }
+      ],
+      "shortest": {
+        "from_station": "Bern",
+        "to_station": "Zofingen",
+        "minutes": 28
+      }
+    },
+    "Solothurn": {
+      "connections": [
+        {
+          "from_station": "Bern",
+          "to_station": "Olten",
+          "minutes": 27
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Olten",
+          "minutes": 34
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Olten",
+          "minutes": 49
+        },
+        {
+          "from_station": "Bern",
+          "to_station": "Grenchen Nord",
+          "minutes": 47
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Grenchen Nord",
+          "minutes": 10
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Grenchen Nord",
+          "minutes": 29
+        }
+      ],
+      "shortest": {
+        "from_station": "Biel/Bienne",
+        "to_station": "Grenchen Nord",
+        "minutes": 10
+      }
+    },
+    "Jura": {
+      "connections": [
+        {
+          "from_station": "Bern",
+          "to_station": "Delémont",
+          "minutes": 62
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Delémont",
+          "minutes": 29
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Delémont",
+          "minutes": 41
+        }
+      ],
+      "shortest": {
+        "from_station": "Biel/Bienne",
+        "to_station": "Delémont",
+        "minutes": 29
+      }
+    },
+    "Valais": {
+      "connections": [
+        {
+          "from_station": "Bern",
+          "to_station": "St-Maurice",
+          "minutes": 113
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "St-Maurice",
+          "minutes": 114
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "St-Maurice",
+          "minutes": 132
+        }
+      ],
+      "shortest": {
+        "from_station": "Bern",
+        "to_station": "St-Maurice",
+        "minutes": 113
+      }
+    },
+    "Fribourg": {
+      "connections": [
+        {
+          "from_station": "Bern",
+          "to_station": "Fribourg",
+          "minutes": 22
+        },
+        {
+          "from_station": "Bern",
+          "to_station": "Kerzers",
+          "minutes": 17
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Fribourg",
+          "minutes": 64
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Kerzers",
+          "minutes": 33
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Fribourg",
+          "minutes": 55
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Kerzers",
+          "minutes": 20
+        }
+      ],
+      "shortest": {
+        "from_station": "Bern",
+        "to_station": "Kerzers",
+        "minutes": 17
+      }
+    },
+    "Vaud": {
+      "connections": [
+        {
+          "from_station": "Bern",
+          "to_station": "Lausanne",
+          "minutes": 69
+        },
+        {
+          "from_station": "Bern",
+          "to_station": "Renens VD",
+          "minutes": 77
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Lausanne",
+          "minutes": 68
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Renens VD",
+          "minutes": 60
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Lausanne",
+          "minutes": 86
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Renens VD",
+          "minutes": 78
+        }
+      ],
+      "shortest": {
+        "from_station": "Biel/Bienne",
+        "to_station": "Renens VD",
+        "minutes": 60
+      }
+    },
+    "Neuchâtel": {
+      "connections": [
+        {
+          "from_station": "Bern",
+          "to_station": "Neuchâtel",
+          "minutes": 35
+        },
+        {
+          "from_station": "Bern",
+          "to_station": "Le Landeron",
+          "minutes": 49
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Neuchâtel",
+          "minutes": 19
+        },
+        {
+          "from_station": "Biel/Bienne",
+          "to_station": "Le Landeron",
+          "minutes": 16
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Neuchâtel",
+          "minutes": 37
+        },
+        {
+          "from_station": "Lyss",
+          "to_station": "Le Landeron",
+          "minutes": 31
+        }
+      ],
+      "shortest": {
+        "from_station": "Biel/Bienne",
+        "to_station": "Le Landeron",
+        "minutes": 16
+      }
+    }
+  },
+  "Ticino": {
+    "Uri": {
+      "connections": [
+        {
+          "from_station": "Bellinzona",
+          "to_station": "Altdorf UR",
+          "minutes": 34
+        },
+        {
+          "from_station": "Biasca",
+          "to_station": "Altdorf UR",
+          "minutes": 59
+        },
+        {
+          "from_station": "Castione-Arbedo",
+          "to_station": "Altdorf UR",
+          "minutes": 46
+        }
+      ],
+      "shortest": {
+        "from_station": "Bellinzona",
+        "to_station": "Altdorf UR",
+        "minutes": 34
+      }
+    },
+    "Valais": {
+      "connections": [
+        {
+          "from_station": "Bellinzona",
+          "to_station": "St-Maurice",
+          "minutes": 263
+        },
+        {
+          "from_station": "Biasca",
+          "to_station": "St-Maurice",
+          "minutes": 281
+        },
+        {
+          "from_station": "Castione-Arbedo",
+          "to_station": "St-Maurice",
+          "minutes": 271
+        }
+      ],
+      "shortest": {
+        "from_station": "Bellinzona",
+        "to_station": "St-Maurice",
+        "minutes": 263
+      }
+    },
+    "Graubünden": {
+      "connections": [
+        {
+          "from_station": "Bellinzona",
+          "to_station": "Landquart",
+          "minutes": 141
+        },
+        {
+          "from_station": "Bellinzona",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 17
+        },
+        {
+          "from_station": "Biasca",
+          "to_station": "Landquart",
+          "minutes": 172
+        },
+        {
+          "from_station": "Biasca",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 22
+        },
+        {
+          "from_station": "Castione-Arbedo",
+          "to_station": "Landquart",
+          "minutes": 156
+        },
+        {
+          "from_station": "Castione-Arbedo",
+          "to_station": "S. Vittore, Zona industriale",
+          "minutes": 9
+        }
+      ],
+      "shortest": {
+        "from_station": "Castione-Arbedo",
+        "to_station": "S. Vittore, Zona industriale",
+        "minutes": 9
+      }
+    }
+  },
+  "Valais": {
+    "Uri": {
+      "connections": [
+        {
+          "from_station": "St-Maurice",
+          "to_station": "Altdorf UR",
+          "minutes": 245
+        }
+      ],
+      "shortest": {
+        "from_station": "St-Maurice",
+        "to_station": "Altdorf UR",
+        "minutes": 245
+      }
+    },
+    "Bern": {
+      "connections": [
+        {
+          "from_station": "St-Maurice",
+          "to_station": "Bern",
+          "minutes": 113
+        },
+        {
+          "from_station": "St-Maurice",
+          "to_station": "Biel/Bienne",
+          "minutes": 114
+        },
+        {
+          "from_station": "St-Maurice",
+          "to_station": "Lyss",
+          "minutes": 132
+        }
+      ],
+      "shortest": {
+        "from_station": "St-Maurice",
+        "to_station": "Bern",
+        "minutes": 113
+      }
+    },
+    "Vaud": {
+      "connections": [
+        {
+          "from_station": "St-Maurice",
+          "to_station": "Lausanne",
+          "minutes": 41
+        },
+        {
+          "from_station": "St-Maurice",
+          "to_station": "Renens VD",
+          "minutes": 48
+        }
+      ],
+      "shortest": {
+        "from_station": "St-Maurice",
+        "to_station": "Lausanne",
+        "minutes": 41
+      }
+    },
+    "Ticino": {
+      "connections": [
+        {
+          "from_station": "St-Maurice",
+          "to_station": "Bellinzona",
+          "minutes": 263
+        },
+        {
+          "from_station": "St-Maurice",
+          "to_station": "Biasca",
+          "minutes": 281
+        },
+        {
+          "from_station": "St-Maurice",
+          "to_station": "Castione-Arbedo",
+          "minutes": 271
+        }
+      ],
+      "shortest": {
+        "from_station": "St-Maurice",
+        "to_station": "Bellinzona",
+        "minutes": 263
+      }
+    }
+  },
+  "Basel-Stadt": {
+    "Basel-Landschaft": {
+      "connections": [
+        {
+          "from_station": "Basel SBB",
+          "to_station": "Liestal",
+          "minutes": 10
+        },
+        {
+          "from_station": "Basel SBB",
+          "to_station": "Muttenz",
+          "minutes": 4
+        },
+        {
+          "from_station": "Basel SBB",
+          "to_station": "Laufen, Bahnhof",
+          "minutes": 39
+        }
+      ],
+      "shortest": {
+        "from_station": "Basel SBB",
+        "to_station": "Muttenz",
+        "minutes": 4
+      }
+    }
+  },
+  "Basel-Landschaft": {
+    "Basel-Stadt": {
+      "connections": [
+        {
+          "from_station": "Liestal",
+          "to_station": "Basel SBB",
+          "minutes": 10
+        },
+        {
+          "from_station": "Muttenz",
+          "to_station": "Basel SBB",
+          "minutes": 4
+        },
+        {
+          "from_station": "Laufen, Bahnhof",
+          "to_station": "Basel SBB",
+          "minutes": 39
+        }
+      ],
+      "shortest": {
+        "from_station": "Muttenz",
+        "to_station": "Basel SBB",
+        "minutes": 4
+      }
+    },
+    "Aargau": {
+      "connections": [
+        {
+          "from_station": "Liestal",
+          "to_station": "Aarau",
+          "minutes": 26
+        },
+        {
+          "from_station": "Liestal",
+          "to_station": "Zofingen",
+          "minutes": 29
+        },
+        {
+          "from_station": "Liestal",
+          "to_station": "Baden",
+          "minutes": 65
+        },
+        {
+          "from_station": "Liestal",
+          "to_station": "Brugg",
+          "minutes": 52
+        },
+        {
+          "from_station": "Muttenz",
+          "to_station": "Aarau",
+          "minutes": 43
+        },
+        {
+          "from_station": "Muttenz",
+          "to_station": "Zofingen",
+          "minutes": 49
+        },
+        {
+          "from_station": "Muttenz",
+          "to_station": "Baden",
+          "minutes": 63
+        },
+        {
+          "from_station": "Muttenz",
+          "to_station": "Brugg",
+          "minutes": 55
+        },
+        {
+          "from_station": "Laufen, Bahnhof",
+          "to_station": "Aarau",
+          "minutes": 80
+        },
+        {
+          "from_station": "Laufen, Bahnhof",
+          "to_station": "Zofingen",
+          "minutes": 86
+        },
+        {
+          "from_station": "Laufen, Bahnhof",
+          "to_station": "Baden",
+          "minutes": 97
+        },
+        {
+          "from_station": "Laufen, Bahnhof",
+          "to_station": "Brugg",
+          "minutes": 87
+        }
+      ],
+      "shortest": {
+        "from_station": "Liestal",
+        "to_station": "Aarau",
+        "minutes": 26
+      }
+    },
+    "Solothurn": {
+      "connections": [
+        {
+          "from_station": "Liestal",
+          "to_station": "Olten",
+          "minutes": 18
+        },
+        {
+          "from_station": "Liestal",
+          "to_station": "Grenchen Nord",
+          "minutes": 80
+        },
+        {
+          "from_station": "Muttenz",
+          "to_station": "Olten",
+          "minutes": 33
+        },
+        {
+          "from_station": "Muttenz",
+          "to_station": "Grenchen Nord",
+          "minutes": 99
+        },
+        {
+          "from_station": "Laufen, Bahnhof",
+          "to_station": "Olten",
+          "minutes": 70
+        },
+        {
+          "from_station": "Laufen, Bahnhof",
+          "to_station": "Grenchen Nord",
+          "minutes": 39
+        }
+      ],
+      "shortest": {
+        "from_station": "Liestal",
+        "to_station": "Olten",
+        "minutes": 18
+      }
+    },
+    "Jura": {
+      "connections": [
+        {
+          "from_station": "Liestal",
+          "to_station": "Delémont",
+          "minutes": 86
+        },
+        {
+          "from_station": "Muttenz",
+          "to_station": "Delémont",
+          "minutes": 75
+        },
+        {
+          "from_station": "Laufen, Bahnhof",
+          "to_station": "Delémont",
+          "minutes": 13
+        }
+      ],
+      "shortest": {
+        "from_station": "Laufen, Bahnhof",
+        "to_station": "Delémont",
+        "minutes": 13
+      }
+    }
+  },
+  "Solothurn": {
+    "Basel-Landschaft": {
+      "connections": [
+        {
+          "from_station": "Olten",
+          "to_station": "Liestal",
+          "minutes": 18
+        },
+        {
+          "from_station": "Grenchen Nord",
+          "to_station": "Liestal",
+          "minutes": 80
+        },
+        {
+          "from_station": "Olten",
+          "to_station": "Muttenz",
+          "minutes": 33
+        },
+        {
+          "from_station": "Grenchen Nord",
+          "to_station": "Muttenz",
+          "minutes": 99
+        },
+        {
+          "from_station": "Olten",
+          "to_station": "Laufen, Bahnhof",
+          "minutes": 70
+        },
+        {
+          "from_station": "Grenchen Nord",
+          "to_station": "Laufen, Bahnhof",
+          "minutes": 39
+        }
+      ],
+      "shortest": {
+        "from_station": "Olten",
+        "to_station": "Liestal",
+        "minutes": 18
+      }
+    },
+    "Aargau": {
+      "connections": [
+        {
+          "from_station": "Olten",
+          "to_station": "Aarau",
+          "minutes": 9
+        },
+        {
+          "from_station": "Grenchen Nord",
+          "to_station": "Aarau",
+          "minutes": 58
+        },
+        {
+          "from_station": "Olten",
+          "to_station": "Zofingen",
+          "minutes": 7
+        },
+        {
+          "from_station": "Grenchen Nord",
+          "to_station": "Zofingen",
+          "minutes": 62
+        },
+        {
+          "from_station": "Olten",
+          "to_station": "Baden",
+          "minutes": 33
+        },
+        {
+          "from_station": "Grenchen Nord",
+          "to_station": "Baden",
+          "minutes": 85
+        },
+        {
+          "from_station": "Olten",
+          "to_station": "Brugg",
+          "minutes": 23
+        },
+        {
+          "from_station": "Grenchen Nord",
+          "to_station": "Brugg",
+          "minutes": 75
+        }
+      ],
+      "shortest": {
+        "from_station": "Olten",
+        "to_station": "Zofingen",
+        "minutes": 7
+      }
+    },
+    "Jura": {
+      "connections": [
+        {
+          "from_station": "Olten",
+          "to_station": "Delémont",
+          "minutes": 67
+        },
+        {
+          "from_station": "Grenchen Nord",
+          "to_station": "Delémont",
+          "minutes": 19
+        }
+      ],
+      "shortest": {
+        "from_station": "Grenchen Nord",
+        "to_station": "Delémont",
+        "minutes": 19
+      }
+    },
+    "Bern": {
+      "connections": [
+        {
+          "from_station": "Olten",
+          "to_station": "Bern",
+          "minutes": 27
+        },
+        {
+          "from_station": "Olten",
+          "to_station": "Biel/Bienne",
+          "minutes": 34
+        },
+        {
+          "from_station": "Olten",
+          "to_station": "Lyss",
+          "minutes": 49
+        },
+        {
+          "from_station": "Grenchen Nord",
+          "to_station": "Bern",
+          "minutes": 47
+        },
+        {
+          "from_station": "Grenchen Nord",
+          "to_station": "Biel/Bienne",
+          "minutes": 10
+        },
+        {
+          "from_station": "Grenchen Nord",
+          "to_station": "Lyss",
+          "minutes": 29
+        }
+      ],
+      "shortest": {
+        "from_station": "Grenchen Nord",
+        "to_station": "Biel/Bienne",
+        "minutes": 10
+      }
+    }
+  },
+  "Jura": {
+    "Basel-Landschaft": {
+      "connections": [
+        {
+          "from_station": "Delémont",
+          "to_station": "Liestal",
+          "minutes": 86
+        },
+        {
+          "from_station": "Delémont",
+          "to_station": "Muttenz",
+          "minutes": 75
+        },
+        {
+          "from_station": "Delémont",
+          "to_station": "Laufen, Bahnhof",
+          "minutes": 13
+        }
+      ],
+      "shortest": {
+        "from_station": "Delémont",
+        "to_station": "Laufen, Bahnhof",
+        "minutes": 13
+      }
+    },
+    "Solothurn": {
+      "connections": [
+        {
+          "from_station": "Delémont",
+          "to_station": "Olten",
+          "minutes": 67
+        },
+        {
+          "from_station": "Delémont",
+          "to_station": "Grenchen Nord",
+          "minutes": 19
+        }
+      ],
+      "shortest": {
+        "from_station": "Delémont",
+        "to_station": "Grenchen Nord",
+        "minutes": 19
+      }
+    },
+    "Bern": {
+      "connections": [
+        {
+          "from_station": "Delémont",
+          "to_station": "Bern",
+          "minutes": 62
+        },
+        {
+          "from_station": "Delémont",
+          "to_station": "Biel/Bienne",
+          "minutes": 29
+        },
+        {
+          "from_station": "Delémont",
+          "to_station": "Lyss",
+          "minutes": 41
+        }
+      ],
+      "shortest": {
+        "from_station": "Delémont",
+        "to_station": "Biel/Bienne",
+        "minutes": 29
+      }
+    },
+    "Neuchâtel": {
+      "connections": [
+        {
+          "from_station": "Delémont",
+          "to_station": "Neuchâtel",
+          "minutes": 55
+        },
+        {
+          "from_station": "Delémont",
+          "to_station": "Le Landeron",
+          "minutes": 55
+        }
+      ],
+      "shortest": {
+        "from_station": "Delémont",
+        "to_station": "Neuchâtel",
+        "minutes": 55
+      }
+    }
+  },
+  "Neuchâtel": {
+    "Jura": {
+      "connections": [
+        {
+          "from_station": "Neuchâtel",
+          "to_station": "Delémont",
+          "minutes": 55
+        },
+        {
+          "from_station": "Le Landeron",
+          "to_station": "Delémont",
+          "minutes": 55
+        }
+      ],
+      "shortest": {
+        "from_station": "Neuchâtel",
+        "to_station": "Delémont",
+        "minutes": 55
+      }
+    },
+    "Bern": {
+      "connections": [
+        {
+          "from_station": "Neuchâtel",
+          "to_station": "Bern",
+          "minutes": 35
+        },
+        {
+          "from_station": "Le Landeron",
+          "to_station": "Bern",
+          "minutes": 49
+        },
+        {
+          "from_station": "Neuchâtel",
+          "to_station": "Biel/Bienne",
+          "minutes": 19
+        },
+        {
+          "from_station": "Le Landeron",
+          "to_station": "Biel/Bienne",
+          "minutes": 16
+        },
+        {
+          "from_station": "Neuchâtel",
+          "to_station": "Lyss",
+          "minutes": 37
+        },
+        {
+          "from_station": "Le Landeron",
+          "to_station": "Lyss",
+          "minutes": 31
+        }
+      ],
+      "shortest": {
+        "from_station": "Le Landeron",
+        "to_station": "Biel/Bienne",
+        "minutes": 16
+      }
+    },
+    "Fribourg": {
+      "connections": [
+        {
+          "from_station": "Neuchâtel",
+          "to_station": "Fribourg",
+          "minutes": 55
+        },
+        {
+          "from_station": "Le Landeron",
+          "to_station": "Fribourg",
+          "minutes": 75
+        },
+        {
+          "from_station": "Neuchâtel",
+          "to_station": "Kerzers",
+          "minutes": 17
+        },
+        {
+          "from_station": "Le Landeron",
+          "to_station": "Kerzers",
+          "minutes": 31
+        }
+      ],
+      "shortest": {
+        "from_station": "Neuchâtel",
+        "to_station": "Kerzers",
+        "minutes": 17
+      }
+    },
+    "Vaud": {
+      "connections": [
+        {
+          "from_station": "Neuchâtel",
+          "to_station": "Lausanne",
+          "minutes": 47
+        },
+        {
+          "from_station": "Neuchâtel",
+          "to_station": "Renens VD",
+          "minutes": 39
+        },
+        {
+          "from_station": "Le Landeron",
+          "to_station": "Lausanne",
+          "minutes": 79
+        },
+        {
+          "from_station": "Le Landeron",
+          "to_station": "Renens VD",
+          "minutes": 71
+        }
+      ],
+      "shortest": {
+        "from_station": "Neuchâtel",
+        "to_station": "Renens VD",
+        "minutes": 39
+      }
+    }
+  },
+  "Fribourg": {
+    "Bern": {
+      "connections": [
+        {
+          "from_station": "Fribourg",
+          "to_station": "Bern",
+          "minutes": 22
+        },
+        {
+          "from_station": "Kerzers",
+          "to_station": "Bern",
+          "minutes": 17
+        },
+        {
+          "from_station": "Fribourg",
+          "to_station": "Biel/Bienne",
+          "minutes": 64
+        },
+        {
+          "from_station": "Kerzers",
+          "to_station": "Biel/Bienne",
+          "minutes": 33
+        },
+        {
+          "from_station": "Fribourg",
+          "to_station": "Lyss",
+          "minutes": 55
+        },
+        {
+          "from_station": "Kerzers",
+          "to_station": "Lyss",
+          "minutes": 20
+        }
+      ],
+      "shortest": {
+        "from_station": "Kerzers",
+        "to_station": "Bern",
+        "minutes": 17
+      }
+    },
+    "Vaud": {
+      "connections": [
+        {
+          "from_station": "Fribourg",
+          "to_station": "Lausanne",
+          "minutes": 46
+        },
+        {
+          "from_station": "Fribourg",
+          "to_station": "Renens VD",
+          "minutes": 54
+        },
+        {
+          "from_station": "Kerzers",
+          "to_station": "Lausanne",
+          "minutes": 75
+        },
+        {
+          "from_station": "Kerzers",
+          "to_station": "Renens VD",
+          "minutes": 67
+        }
+      ],
+      "shortest": {
+        "from_station": "Fribourg",
+        "to_station": "Lausanne",
+        "minutes": 46
+      }
+    },
+    "Neuchâtel": {
+      "connections": [
+        {
+          "from_station": "Fribourg",
+          "to_station": "Neuchâtel",
+          "minutes": 55
+        },
+        {
+          "from_station": "Fribourg",
+          "to_station": "Le Landeron",
+          "minutes": 75
+        },
+        {
+          "from_station": "Kerzers",
+          "to_station": "Neuchâtel",
+          "minutes": 17
+        },
+        {
+          "from_station": "Kerzers",
+          "to_station": "Le Landeron",
+          "minutes": 31
+        }
+      ],
+      "shortest": {
+        "from_station": "Kerzers",
+        "to_station": "Neuchâtel",
+        "minutes": 17
+      }
+    }
+  },
+  "Vaud": {
+    "Bern": {
+      "connections": [
+        {
+          "from_station": "Lausanne",
+          "to_station": "Bern",
+          "minutes": 69
+        },
+        {
+          "from_station": "Renens VD",
+          "to_station": "Bern",
+          "minutes": 77
+        },
+        {
+          "from_station": "Lausanne",
+          "to_station": "Biel/Bienne",
+          "minutes": 68
+        },
+        {
+          "from_station": "Renens VD",
+          "to_station": "Biel/Bienne",
+          "minutes": 60
+        },
+        {
+          "from_station": "Lausanne",
+          "to_station": "Lyss",
+          "minutes": 86
+        },
+        {
+          "from_station": "Renens VD",
+          "to_station": "Lyss",
+          "minutes": 78
+        }
+      ],
+      "shortest": {
+        "from_station": "Renens VD",
+        "to_station": "Biel/Bienne",
+        "minutes": 60
+      }
+    },
+    "Fribourg": {
+      "connections": [
+        {
+          "from_station": "Lausanne",
+          "to_station": "Fribourg",
+          "minutes": 46
+        },
+        {
+          "from_station": "Renens VD",
+          "to_station": "Fribourg",
+          "minutes": 54
+        },
+        {
+          "from_station": "Lausanne",
+          "to_station": "Kerzers",
+          "minutes": 75
+        },
+        {
+          "from_station": "Renens VD",
+          "to_station": "Kerzers",
+          "minutes": 67
+        }
+      ],
+      "shortest": {
+        "from_station": "Lausanne",
+        "to_station": "Fribourg",
+        "minutes": 46
+      }
+    },
+    "Neuchâtel": {
+      "connections": [
+        {
+          "from_station": "Lausanne",
+          "to_station": "Neuchâtel",
+          "minutes": 47
+        },
+        {
+          "from_station": "Renens VD",
+          "to_station": "Neuchâtel",
+          "minutes": 39
+        },
+        {
+          "from_station": "Lausanne",
+          "to_station": "Le Landeron",
+          "minutes": 79
+        },
+        {
+          "from_station": "Renens VD",
+          "to_station": "Le Landeron",
+          "minutes": 71
+        }
+      ],
+      "shortest": {
+        "from_station": "Renens VD",
+        "to_station": "Neuchâtel",
+        "minutes": 39
+      }
+    },
+    "Geneva": {
+      "connections": [
+        {
+          "from_station": "Lausanne",
+          "to_station": "Genève",
+          "minutes": 39
+        },
+        {
+          "from_station": "Renens VD",
+          "to_station": "Genève",
+          "minutes": 32
+        }
+      ],
+      "shortest": {
+        "from_station": "Renens VD",
+        "to_station": "Genève",
+        "minutes": 32
+      }
+    },
+    "Valais": {
+      "connections": [
+        {
+          "from_station": "Lausanne",
+          "to_station": "St-Maurice",
+          "minutes": 41
+        },
+        {
+          "from_station": "Renens VD",
+          "to_station": "St-Maurice",
+          "minutes": 48
+        }
+      ],
+      "shortest": {
+        "from_station": "Lausanne",
+        "to_station": "St-Maurice",
+        "minutes": 41
+      }
+    }
+  },
+  "Geneva": {
+    "Vaud": {
+      "connections": [
+        {
+          "from_station": "Genève",
+          "to_station": "Lausanne",
+          "minutes": 39
+        },
+        {
+          "from_station": "Genève",
+          "to_station": "Renens VD",
+          "minutes": 32
+        }
+      ],
+      "shortest": {
+        "from_station": "Genève",
+        "to_station": "Renens VD",
+        "minutes": 32
+      }
+    }
+  }
+}
