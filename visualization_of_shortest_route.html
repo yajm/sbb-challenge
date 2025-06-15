@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiss Canton Route - Updated Path</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+      }
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        background: #f0f0f0;
+      }
+      .info-panel {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        max-width: 320px;
+        max-height: 80vh;
+        overflow-y: auto;
+        z-index: 1000;
+      }
+      .info-panel h2 {
+        margin: 0 0 15px 0;
+        color: #333;
+        font-size: 20px;
+      }
+      .path-info {
+        font-size: 11px;
+        color: #666;
+        margin-bottom: 10px;
+      }
+      .route-item {
+        margin: 8px 0;
+        padding: 8px;
+        background: #f8f8f8;
+        border-radius: 5px;
+        font-size: 13px;
+        border-left: 3px solid #0078a8;
+        transition: all 0.2s ease;
+        cursor: pointer;
+      }
+      .route-item:hover {
+        background: #e8f4f8;
+        transform: translateX(3px);
+      }
+      .route-item.revisit {
+        border-left-color: #ff6b6b;
+      }
+      .route-item .number {
+        font-weight: bold;
+        color: #0078a8;
+        margin-right: 5px;
+      }
+      .route-item .time {
+        color: #666;
+        font-size: 11px;
+        margin-left: 5px;
+      }
+      .route-item .stations {
+        font-size: 11px;
+        color: #888;
+        margin-top: 2px;
+      }
+      .legend {
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px solid #ddd;
+      }
+      .legend-item {
+        display: flex;
+        align-items: center;
+        margin: 5px 0;
+        font-size: 12px;
+      }
+      .legend-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        margin-right: 8px;
+      }
+      .leaflet-popup-content {
+        font-size: 14px;
+        margin: 10px;
+      }
+      .popup-station {
+        font-weight: bold;
+        color: #0078a8;
+        margin-bottom: 3px;
+      }
+      .popup-canton {
+        color: #666;
+        font-size: 12px;
+      }
+      .route-stats {
+        margin-top: 15px;
+        padding: 10px;
+        background: #e8f4f8;
+        border-radius: 5px;
+        font-size: 12px;
+      }
+      .loading {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 16px;
+        color: #666;
+        z-index: 100;
+      }
+      @media (max-width: 640px) {
+        .info-panel {
+          left: 10px;
+          right: 10px;
+          max-width: none;
+          max-height: 40vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map">
+      <div class="loading">Loading map...</div>
+    </div>
+    <div class="info-panel" style="display: none">
+      <h2>🇨🇭 Swiss Canton Journey</h2>
+      <div class="path-info">
+        Updated Path • St-Maurice to S. Vittore via Olten
+      </div>
+      <div class="route-stats">
+        <strong>Total Segments:</strong> 30<br />
+        <strong>Total Time:</strong> 12h 35min (755 min)<br />
+        <strong>West Path:</strong> 5h 9min (309 min)<br />
+        <strong>East Path:</strong> 7h 26min (446 min)<br />
+        <strong>Cantons Visited:</strong> All 26
+      </div>
+      <div id="route-list"></div>
+      <div class="legend">
+        <div class="legend-item">
+          <div class="legend-dot" style="background: #0078a8"></div>
+          <span>Start/End Points</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot" style="background: #ff6b6b"></div>
+          <span>Multiple Visits (Revisit)</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-dot" style="background: #4ecdc4"></div>
+          <span>Single Visit</span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Wait for everything to load
+      window.addEventListener("load", function () {
+        // Check if Leaflet is available
+        if (typeof L === "undefined") {
+          document.getElementById("map").innerHTML =
+            '<div style="padding: 40px; text-align: center; color: #d32f2f;">Error: Map library failed to load. Please check your internet connection and refresh the page.</div>';
+          return;
+        }
+
+        // Remove loading message
+        const loadingEl = document.querySelector(".loading");
+        if (loadingEl) loadingEl.remove();
+
+        // Show info panel
+        document.querySelector(".info-panel").style.display = "block";
+
+        // Coordinates for Swiss train stations
+        const stationCoordinates = {
+          "Basel SBB": [7.5896, 47.5476],
+          Muttenz: [7.6451, 47.5232],
+          Delémont: [7.3447, 47.3653],
+          "Biel/Bienne": [7.2468, 47.1368],
+          Neuchâtel: [6.9293, 46.99],
+          "Renens VD": [6.5779, 46.5376],
+          Genève: [6.1424, 46.2104],
+          "St-Maurice": [7.0031, 46.2183],
+          Lausanne: [6.6295, 46.5167],
+          Fribourg: [7.1513, 46.8033],
+          Bern: [7.4391, 46.9487],
+          Olten: [7.908, 47.3519],
+          Aarau: [8.0635, 47.3918],
+          "Zürich HB": [8.5403, 47.3778],
+          Schaffhausen: [8.6334, 47.6965],
+          Romanshorn: [9.3811, 47.5658],
+          "St. Gallen": [9.3767, 47.4245],
+          Herisau: [9.279, 47.3867],
+          Jakobsbad: [9.3074, 47.3029],
+          Uznach: [8.9806, 47.2242],
+          Ziegelbrücke: [9.0702, 47.1306],
+          "Pfäffikon SZ": [8.7906, 47.2034],
+          Zug: [8.5147, 47.1734],
+          Luzern: [8.31, 47.0503],
+          "Hergiswil NW": [8.3098, 46.9909],
+          Alpnachstad: [8.2747, 46.9419],
+          "Altdorf UR": [8.6445, 46.8805],
+          Bellinzona: [9.0298, 46.195],
+          "S. Vittore, Zona industriale": [9.0715, 46.2375],
+          // New stations
+          Liestal: [7.7341, 47.4843],
+          "Laufen, Bahnhof": [7.5036, 47.4222],
+          Lyss: [7.3068, 47.0741],
+          Kerzers: [7.1951, 46.9758],
+        };
+
+        // Route data - Updated Path from St-Maurice to S. Vittore via Olten
+        const routeData = [
+          // West Path: St-Maurice to Olten
+          {
+            segment: 1,
+            from: "Valais",
+            fromStation: "St-Maurice",
+            to: "Vaud",
+            toStation: "Renens VD",
+            time: null, // To be filled
+            isRevisit: false,
+          },
+          {
+            segment: 2,
+            from: "Vaud",
+            fromStation: "Renens VD",
+            to: "Geneva",
+            toStation: "Genève",
+            time: 32,
+            isRevisit: false,
+          },
+          {
+            segment: 3,
+            from: "Geneva",
+            fromStation: "Genève",
+            to: "Vaud",
+            toStation: "Renens VD",
+            time: 32,
+            isRevisit: true,
+          },
+          {
+            segment: 4,
+            from: "Vaud",
+            fromStation: "Renens VD",
+            to: "Neuchâtel",
+            toStation: "Neuchâtel",
+            time: null, // To be filled
+            isRevisit: true,
+          },
+          {
+            segment: 5,
+            from: "Neuchâtel",
+            fromStation: "Neuchâtel",
+            to: "Fribourg",
+            toStation: "Kerzers",
+            time: null, // To be filled
+            isRevisit: false,
+          },
+          {
+            segment: 6,
+            from: "Fribourg",
+            fromStation: "Kerzers",
+            to: "Bern",
+            toStation: "Lyss",
+            time: null, // To be filled
+            isRevisit: false,
+          },
+          {
+            segment: 7,
+            from: "Bern",
+            fromStation: "Lyss",
+            to: "Jura",
+            toStation: "Delémont",
+            time: null, // To be filled
+            isRevisit: false,
+          },
+          {
+            segment: 8,
+            from: "Jura",
+            fromStation: "Delémont",
+            to: "Basel-Landschaft",
+            toStation: "Laufen, Bahnhof",
+            time: null, // To be filled
+            isRevisit: false,
+          },
+          {
+            segment: 9,
+            from: "Basel-Landschaft",
+            fromStation: "Laufen, Bahnhof",
+            to: "Basel-Stadt",
+            toStation: "Basel SBB",
+            time: null, // To be filled
+            isRevisit: false,
+          },
+          {
+            segment: 10,
+            from: "Basel-Stadt",
+            fromStation: "Basel SBB",
+            to: "Basel-Landschaft",
+            toStation: "Liestal",
+            time: null, // To be filled
+            isRevisit: true,
+          },
+          {
+            segment: 11,
+            from: "Basel-Landschaft",
+            fromStation: "Liestal",
+            to: "Solothurn",
+            toStation: "Olten",
+            time: null, // To be filled
+            isRevisit: true,
+          },
+          // East Path: Olten to S. Vittore
+          {
+            segment: 12,
+            from: "Solothurn",
+            fromStation: "Olten",
+            to: "Aargau",
+            toStation: "Aarau",
+            time: 9,
+            isRevisit: false,
+          },
+          {
+            segment: 13,
+            from: "Aargau",
+            fromStation: "Aarau",
+            to: "Zurich",
+            toStation: "Zürich HB",
+            time: 24,
+            isRevisit: false,
+          },
+          {
+            segment: 14,
+            from: "Zurich",
+            fromStation: "Zürich HB",
+            to: "Schaffhausen",
+            toStation: "Schaffhausen",
+            time: 36,
+            isRevisit: false,
+          },
+          {
+            segment: 15,
+            from: "Schaffhausen",
+            fromStation: "Schaffhausen",
+            to: "Thurgau",
+            toStation: "Romanshorn",
+            time: 72,
+            isRevisit: false,
+          },
+          {
+            segment: 16,
+            from: "Thurgau",
+            fromStation: "Romanshorn",
+            to: "St. Gallen",
+            toStation: "St. Gallen",
+            time: 18,
+            isRevisit: false,
+          },
+          {
+            segment: 17,
+            from: "St. Gallen",
+            fromStation: "St. Gallen",
+            to: "Appenzell Ausserrhoden",
+            toStation: "Herisau",
+            time: 7,
+            isRevisit: false,
+          },
+          {
+            segment: 18,
+            from: "Appenzell Ausserrhoden",
+            fromStation: "Herisau",
+            to: "Appenzell Innerrhoden",
+            toStation: "Jakobsbad",
+            time: 20,
+            isRevisit: false,
+          },
+          {
+            segment: 19,
+            from: "Appenzell Innerrhoden",
+            fromStation: "Jakobsbad",
+            to: "Appenzell Ausserrhoden",
+            toStation: "Herisau",
+            time: 20,
+            isRevisit: true,
+          },
+          {
+            segment: 20,
+            from: "Appenzell Ausserrhoden",
+            fromStation: "Herisau",
+            to: "St. Gallen",
+            toStation: "Uznach",
+            time: 29,
+            isRevisit: true,
+          },
+          {
+            segment: 21,
+            from: "St. Gallen",
+            fromStation: "Uznach",
+            to: "Glarus",
+            toStation: "Ziegelbrücke",
+            time: 11,
+            isRevisit: true,
+          },
+          {
+            segment: 22,
+            from: "Glarus",
+            fromStation: "Ziegelbrücke",
+            to: "Schwyz",
+            toStation: "Pfäffikon SZ",
+            time: 17,
+            isRevisit: false,
+          },
+          {
+            segment: 23,
+            from: "Schwyz",
+            fromStation: "Pfäffikon SZ",
+            to: "Zug",
+            toStation: "Zug",
+            time: 41,
+            isRevisit: false,
+          },
+          {
+            segment: 24,
+            from: "Zug",
+            fromStation: "Zug",
+            to: "Lucerne",
+            toStation: "Luzern",
+            time: 19,
+            isRevisit: false,
+          },
+          {
+            segment: 25,
+            from: "Lucerne",
+            fromStation: "Luzern",
+            to: "Nidwalden",
+            toStation: "Hergiswil NW",
+            time: 10,
+            isRevisit: false,
+          },
+          {
+            segment: 26,
+            from: "Nidwalden",
+            fromStation: "Hergiswil NW",
+            to: "Obwalden",
+            toStation: "Alpnachstad",
+            time: 4,
+            isRevisit: false,
+          },
+          {
+            segment: 27,
+            from: "Obwalden",
+            fromStation: "Alpnachstad",
+            to: "Nidwalden",
+            toStation: "Hergiswil NW",
+            time: 4,
+            isRevisit: true,
+          },
+          {
+            segment: 28,
+            from: "Nidwalden",
+            fromStation: "Hergiswil NW",
+            to: "Uri",
+            toStation: "Altdorf UR",
+            time: 54,
+            isRevisit: true,
+          },
+          {
+            segment: 29,
+            from: "Uri",
+            fromStation: "Altdorf UR",
+            to: "Ticino",
+            toStation: "Bellinzona",
+            time: 34,
+            isRevisit: false,
+          },
+          {
+            segment: 30,
+            from: "Ticino",
+            fromStation: "Bellinzona",
+            to: "Graubünden",
+            toStation: "S. Vittore, Zona industriale",
+            time: 17,
+            isRevisit: false,
+          },
+        ];
+
+        // Canton visit counts
+        const cantonVisitCounts = {
+          Valais: 1,
+          Vaud: 3,
+          Geneva: 1,
+          Neuchâtel: 1,
+          Fribourg: 1,
+          Bern: 1,
+          Jura: 1,
+          "Basel-Landschaft": 3,
+          "Basel-Stadt": 1,
+          Solothurn: 1,
+          Aargau: 1,
+          Zurich: 1,
+          Schaffhausen: 1,
+          Thurgau: 1,
+          "St. Gallen": 2,
+          "Appenzell Ausserrhoden": 2,
+          "Appenzell Innerrhoden": 1,
+          Glarus: 1,
+          Schwyz: 1,
+          Zug: 1,
+          Lucerne: 1,
+          Nidwalden: 2,
+          Obwalden: 1,
+          Uri: 1,
+          Ticino: 1,
+          Graubünden: 1,
+        };
+
+        try {
+          // Initialize map
+          const map = L.map("map").setView([46.818, 8.227], 8);
+
+          // Add OpenStreetMap tiles
+          L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            attribution:
+              '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 19,
+          }).addTo(map);
+
+          // Create custom icons
+          const createIcon = (color) => {
+            return L.divIcon({
+              className: "custom-marker",
+              html: `<div style="
+                            width: 12px;
+                            height: 12px;
+                            border-radius: 50%;
+                            background-color: ${color};
+                            border: 2px solid white;
+                            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+                        "></div>`,
+              iconSize: [16, 16],
+              iconAnchor: [8, 8],
+            });
+          };
+
+          // Track added markers to avoid duplicates
+          const addedMarkers = new Set();
+          const stationCantonMap = {};
+
+          // Build station-canton mapping
+          routeData.forEach((segment) => {
+            stationCantonMap[segment.fromStation] = segment.from;
+            stationCantonMap[segment.toStation] = segment.to;
+          });
+
+          // Add route lines and markers
+          routeData.forEach((segment, index) => {
+            const fromCoords = stationCoordinates[segment.fromStation];
+            const toCoords = stationCoordinates[segment.toStation];
+
+            if (fromCoords && toCoords) {
+              // Add polyline for each segment
+              const polyline = L.polyline(
+                [
+                  [fromCoords[1], fromCoords[0]],
+                  [toCoords[1], toCoords[0]],
+                ],
+                {
+                  color: segment.isRevisit ? "#FF6B6B" : "#0078A8",
+                  weight: 3,
+                  opacity: 0.7,
+                  smoothFactor: 1,
+                }
+              ).addTo(map);
+
+              // Add popup to line showing segment info
+              const timeInfo = segment.time
+                ? `${segment.time} minutes`
+                : "Time TBD";
+              polyline.bindPopup(`
+                            <strong>Segment ${segment.segment}</strong><br>
+                            ${segment.from} → ${segment.to}<br>
+                            ${timeInfo}
+                            ${
+                              segment.isRevisit
+                                ? "<br><em>Revisiting canton</em>"
+                                : ""
+                            }
+                        `);
+            }
+
+            // Add markers
+            [segment.fromStation, segment.toStation].forEach((station) => {
+              if (!addedMarkers.has(station) && stationCoordinates[station]) {
+                const coords = stationCoordinates[station];
+                const canton = stationCantonMap[station];
+
+                // Determine marker color
+                let markerColor = "#4ECDC4"; // Default: single visit
+                if (station === "St-Maurice") {
+                  markerColor = "#0078A8"; // Start
+                } else if (station === "S. Vittore, Zona industriale") {
+                  markerColor = "#0078A8"; // End
+                } else if (cantonVisitCounts[canton] > 1) {
+                  markerColor = "#FF6B6B"; // Multiple visits to this canton
+                }
+
+                const marker = L.marker([coords[1], coords[0]], {
+                  icon: createIcon(markerColor),
+                }).addTo(map);
+
+                marker.bindPopup(`
+                                <div class="popup-station">${station}</div>
+                                <div class="popup-canton">${canton}</div>
+                                ${
+                                  cantonVisitCounts[canton] > 1
+                                    ? `<div style="font-size: 11px; color: #FF6B6B;">Canton visited ${cantonVisitCounts[canton]} times</div>`
+                                    : ""
+                                }
+                            `);
+
+                addedMarkers.add(station);
+              }
+            });
+          });
+
+          // Populate route list
+          const routeList = document.getElementById("route-list");
+          routeData.forEach((segment) => {
+            const div = document.createElement("div");
+            div.className =
+              "route-item" + (segment.isRevisit ? " revisit" : "");
+            const timeDisplay = segment.time
+              ? `<span class="time">${segment.time} min</span>`
+              : '<span class="time" style="color: #999;">TBD</span>';
+            div.innerHTML = `
+                        <span class="number">${segment.segment}.</span>
+                        ${segment.from} → ${segment.to}
+                        ${timeDisplay}
+                        <div class="stations">${segment.fromStation} → ${segment.toStation}</div>
+                    `;
+
+            // Add click handler to center map on segment
+            div.addEventListener("click", () => {
+              const fromCoords = stationCoordinates[segment.fromStation];
+              const toCoords = stationCoordinates[segment.toStation];
+              if (fromCoords && toCoords) {
+                const bounds = L.latLngBounds([
+                  [fromCoords[1], fromCoords[0]],
+                  [toCoords[1], toCoords[0]],
+                ]);
+                map.fitBounds(bounds, { padding: [50, 50] });
+              }
+            });
+
+            routeList.appendChild(div);
+          });
+
+          // Fit map to show all markers
+          const allCoords = Object.values(stationCoordinates).map((coord) => [
+            coord[1],
+            coord[0],
+          ]);
+          const bounds = L.latLngBounds(allCoords);
+          map.fitBounds(bounds, { padding: [50, 50] });
+        } catch (error) {
+          console.error("Error initializing map:", error);
+          document.getElementById("map").innerHTML =
+            '<div style="padding: 40px; text-align: center; color: #d32f2f;">Error initializing map. Please refresh the page.</div>';
+        }
+      });
+    </script>
+  </body>
+</html>
